@@ -9,6 +9,10 @@ GitHub 全站 star 排名前 K（当前 K = 2000）的仓库里，所有与**全
 
 姊妹项目：[LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agent-topk)，同一套流程，方向是 LLM 与 Agent。两份列表互不重叠：`build.py` 会对照姊妹列表（优先用本地同级目录，没有就读它在 GitHub 上的线上数据），发现两边都收录的仓库会直接报错。
 
+**在线看板：<https://sigangluo.github.io/github-fullstack-topk/>**
+
+[![项目卡片](docs/images/cards-zh.png)](https://sigangluo.github.io/github-fullstack-topk/)
+
 ## 能做什么
 
 - **浏览**：项目按大类 / 小类整理，带侧边目录；每个小类都写明了收录边界。
@@ -16,7 +20,14 @@ GitHub 全站 star 排名前 K（当前 K = 2000）的仓库里，所有与**全
 - **筛选**：按分类树、组织、编程语言、官方 / 社区、活跃度筛选，也可以搜索项目名和摘要。
 - **分析**：各分类的规模与活跃度、每季度新建项目数、按创建年份看语言变化、各公司官方出品、高 star 但已经沉寂的项目。
 - **切换语言**：整个界面和每一条摘要都有中文和 English 两个版本。
-- **复用数据**：`site/data/topk.json` 包含全部数据；[PROJECTS.zh-CN.md](PROJECTS.zh-CN.md) 是可直接在 GitHub 上浏览的清单。
+- **复用数据**：[`topk.json`](https://sigangluo.github.io/github-fullstack-topk/data/topk.json) 包含全部数据；[PROJECTS.zh-CN.md](PROJECTS.zh-CN.md) 是可直接在 GitHub 上浏览的清单。
+
+<table>
+<tr>
+<td width="50%"><img src="docs/images/filter-zh.png" alt="两级分类筛选"><br><sub>两级分类筛选</sub></td>
+<td width="50%"><img src="docs/images/analysis-zh.png" alt="数据分析视图"><br><sub>数据分析视图</sub></td>
+</tr>
+</table>
 
 ## 收录范围
 

@@ -9,6 +9,10 @@ A hand-curated map of every **full-stack development** open-source project among
 
 Sister project: [LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agent-topk), the same pipeline applied to LLM and agent projects. The two lists never overlap: `build.py` checks against the sister list (a sibling checkout if present, otherwise its published data on GitHub) and fails on any repo that appears in both.
 
+**Live dashboard: <https://sigangluo.github.io/github-fullstack-topk/>**
+
+[![Project cards](docs/images/cards-en.png)](https://sigangluo.github.io/github-fullstack-topk/)
+
 ## What you can do
 
 - **Browse** projects grouped into categories and subcategories, with a sidebar table of contents. Every subcategory has a written definition of what belongs in it.
@@ -16,7 +20,14 @@ Sister project: [LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agen
 - **Filter** by category tree, organization, code language, official vs community, or activity, and search names and summaries.
 - **Analyze** the landscape: category size and activity, new projects per quarter, language trends by creation year, official projects by company, and popular projects that went quiet.
 - **Switch language**: the whole UI and every summary are available in English and 中文.
-- **Reuse the data**: `site/data/topk.json` has everything; [PROJECTS.md](PROJECTS.md) is a browsable list right on GitHub.
+- **Reuse the data**: [`topk.json`](https://sigangluo.github.io/github-fullstack-topk/data/topk.json) has everything; [PROJECTS.md](PROJECTS.md) is a browsable list right on GitHub.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/images/filter-en.png" alt="Two-level category filter"><br><sub>Two-level category filter</sub></td>
+<td width="50%"><img src="docs/images/analysis-en.png" alt="Analysis view"><br><sub>Analysis view</sub></td>
+</tr>
+</table>
 
 ## Scope
 

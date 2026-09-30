@@ -44,6 +44,8 @@ python3 scripts/candidates.py           # 找出待审核的新仓库，写入 d
 
 只有仓库所在的 GitHub 组织**就是**该公司本身时才标 `official: true`。常见：`facebook`/`facebookincubator` (Meta)、`vercel` (Vercel)、`microsoft` (Microsoft)、`google` (Google)、`supabase` (Supabase)、`prisma` (Prisma)、`denoland` (Deno)、`oven-sh` (Oven)、`laravel` (Laravel)、`withastro` (Astro)、`cloudflare` (Cloudflare)、`shopify` (Shopify)、`ant-design` (Ant Group)、`alibaba` (Alibaba)、`Tencent*` (Tencent)。基金会 / 社区组织（`nodejs`、`django`、`rails`、`vuejs`、`vitejs`、`sveltejs`、`angular` 等）一律 `false`。`officialOrg` 用公司英文名。
 
+- `docs/images/` 里的 README 截图是静态的，界面有明显改动时才需要重拍（Playwright，1360 宽，英文和中文各拍 cards / filter / analysis 三张），每周更新不用管。
+
 ## 数据字段约定
 
 - `category`：必须是 `data/taxonomy.json` 里某个**小类**的 `key`。调整分类需同步改 taxonomy 和引用它的项目，`build.py` 会校验孤儿引用。
