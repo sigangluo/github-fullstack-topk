@@ -1,80 +1,82 @@
 # Full-Stack Top-K 项目清单
 
 > 本文件由 `scripts/build.py` 自动生成，请勿手动修改。
-> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **908** 个项目，按「大类 / 小类」整理。排名快照 2026-09-30，star 数更新于 2026-09-30。
+> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **977** 个项目，按「大类 / 小类」整理。排名快照 2026-09-30，star 数更新于 2026-09-30。
 > English version: [PROJECTS.md](PROJECTS.md)
 
 ## 目录
 
-- [全栈框架与应用骨架](#全栈框架与应用骨架)（76）
+- [全栈框架与应用骨架](#全栈框架与应用骨架)（77）
   - [全栈与元框架](#全栈与元框架)（14）
   - [静态站点与文档站生成器](#静态站点与文档站生成器)（12）
   - [脚手架与项目模板](#脚手架与项目模板)（24）
-  - [管理后台与低代码](#管理后台与低代码)（18）
+  - [管理后台与低代码](#管理后台与低代码)（19）
   - [CMS 与电商平台](#cms-与电商平台)（8）
-- [客户端与应用框架](#客户端与应用框架)（52）
+- [客户端与应用框架](#客户端与应用框架)（53）
   - [前端视图框架](#前端视图框架)（16）
   - [状态、路由与数据请求](#状态路由与数据请求)（16）
   - [移动与跨端应用框架](#移动与跨端应用框架)（9）
-  - [桌面应用框架](#桌面应用框架)（11）
-- [界面组件与视觉](#界面组件与视觉)（111）
-  - [组件库、CSS 与图标](#组件库css-与图标)（37）
+  - [桌面应用框架](#桌面应用框架)（12）
+- [界面组件与视觉](#界面组件与视觉)（119）
+  - [组件库与 CSS 框架](#组件库与-css-框架)（31）
+  - [图标、字体与主题](#图标字体与主题)（13）
   - [交互小组件](#交互小组件)（20）
   - [动画与动效](#动画与动效)（13）
   - [编辑器与富文本](#编辑器与富文本)（10）
   - [图表与地图](#图表与地图)（9）
   - [3D、Canvas 与白板绘图](#3dcanvas-与白板绘图)（13）
-  - [媒体、文档与演示](#媒体文档与演示)（9）
-- [工程化工具链](#工程化工具链)（73）
+  - [媒体、文档与演示](#媒体文档与演示)（10）
+- [工程化工具链](#工程化工具链)（75）
   - [构建、打包与编译](#构建打包与编译)（16）
   - [代码规范与格式化](#代码规范与格式化)（8）
   - [测试与性能](#测试与性能)（13）
   - [包管理与版本管理](#包管理与版本管理)（18）
-  - [开发者体验与 Monorepo](#开发者体验与-monorepo)（18）
-- [编程语言与开发环境](#编程语言与开发环境)（121）
+  - [开发者体验与 Monorepo](#开发者体验与-monorepo)（20）
+- [编程语言与开发环境](#编程语言与开发环境)（124）
   - [编程语言、运行时与编译器](#编程语言运行时与编译器)（25）
   - [代码编辑器与 IDE](#代码编辑器与-ide)（23）
-  - [Shell 与终端](#shell-与终端)（28）
+  - [Shell 与终端](#shell-与终端)（29）
   - [Git 与版本控制工具](#git-与版本控制工具)（9）
-  - [命令行工具](#命令行工具)（25）
+  - [命令行工具](#命令行工具)（27）
   - [CLI 与 TUI 框架](#cli-与-tui-框架)（11）
-- [后端与服务框架](#后端与服务框架)（77）
+- [后端与服务框架](#后端与服务框架)（78）
   - [后端框架](#后端框架)（25）
   - [微服务与服务治理](#微服务与服务治理)（14）
-  - [API 与网关](#api-与网关)（24）
+  - [API 与网关](#api-与网关)（25）
   - [认证、身份与密钥](#认证身份与密钥)（10）
   - [后端即服务](#后端即服务)（4）
-- [数据与中间件](#数据与中间件)（62）
+- [数据与中间件](#数据与中间件)（64）
   - [数据库引擎](#数据库引擎)（18）
   - [ORM 与数据库工具](#orm-与数据库工具)（13）
   - [缓存、搜索与对象存储](#缓存搜索与对象存储)（9）
-  - [消息与任务队列](#消息与任务队列)（5）
+  - [消息与任务队列](#消息与任务队列)（6）
   - [数据处理与工作流编排](#数据处理与工作流编排)（10）
-  - [数据分析、BI 与产品分析](#数据分析bi-与产品分析)（7）
-- [通用库与 SDK](#通用库与-sdk)（81）
-  - [JS / TS 通用库](#js--ts-通用库)（34）
+  - [数据分析、BI 与产品分析](#数据分析bi-与产品分析)（8）
+- [通用库与 SDK](#通用库与-sdk)（84）
+  - [JS / TS 通用库](#js--ts-通用库)（36）
   - [JVM / Android 通用库](#jvm--android-通用库)（16）
-  - [Python / Go / Swift / PHP 通用库](#python--go--swift--php-通用库)（20）
+  - [Python / Go / Swift / PHP 通用库](#python--go--swift--php-通用库)（21）
   - [C / C++ 通用库](#c--c-通用库)（11）
-- [部署与运维](#部署与运维)（73）
+- [部署与运维](#部署与运维)（77）
   - [容器与运行时](#容器与运行时)（13）
   - [Kubernetes 与集群管理](#kubernetes-与集群管理)（10）
   - [基础设施即代码](#基础设施即代码)（5）
   - [部署与自托管平台](#部署与自托管平台)（12）
-  - [反向代理、证书与隧道](#反向代理证书与隧道)（10）
+  - [反向代理、证书与隧道](#反向代理证书与隧道)（14）
   - [CI/CD 与自动化](#cicd-与自动化)（10）
   - [监控与可观测](#监控与可观测)（13）
-- [学习与教程](#学习与教程)（94）
-  - [路线图与综合课程](#路线图与综合课程)（18）
-  - [语言与框架教程](#语言与框架教程)（34）
-  - [命令行、Git 与运维实践](#命令行git-与运维实践)（12）
+- [学习与教程](#学习与教程)（115）
+  - [路线图与综合课程](#路线图与综合课程)（26）
+  - [前端、JavaScript 与移动教程](#前端javascript-与移动教程)（19）
+  - [编程语言教程](#编程语言教程)（23）
+  - [命令行、Git 与运维实践](#命令行git-与运维实践)（17）
   - [操作系统与编译原理](#操作系统与编译原理)（6）
   - [算法与数据结构](#算法与数据结构)（24）
-- [面试、规范与清单](#面试规范与清单)（88）
-  - [系统设计与面试](#系统设计与面试)（31）
-  - [最佳实践与规范](#最佳实践与规范)（19）
-  - [前端与移动精选清单](#前端与移动精选清单)（16）
-  - [语言、后端与通用精选清单](#语言后端与通用精选清单)（22）
+- [面试、规范与清单](#面试规范与清单)（111）
+  - [系统设计与面试](#系统设计与面试)（32）
+  - [最佳实践与规范](#最佳实践与规范)（22）
+  - [前端与移动精选清单](#前端与移动精选清单)（18）
+  - [语言、后端与通用精选清单](#语言后端与通用精选清单)（39）
 
 ## 全栈框架与应用骨架
 
@@ -128,7 +130,7 @@ SaaS 模板、全栈起步项目、示例应用和最佳实践参考实现，以
 |---|---:|---:|---|---|
 | [github/gitignore](https://github.com/github/gitignore) | 176k | #47 | 官方 · GitHub | GitHub 官方维护的 .gitignore 模板集合，用于填充 GitHub 网页上创建仓库和文件时的 .gitignore 模板选择器，覆盖各类语言、框架与编辑器。 |
 | [react/create-react-app](https://github.com/react/create-react-app) | 103.2k | #122 | 社区 | 一条命令创建 React 单页应用的脚手架，基于 webpack，曾是官方推荐的起步方式，现已弃用，官方建议改用 React 框架。 |
-| [macrozheng/mall](https://github.com/macrozheng/mall) | 84.8k | #182 | 社区 | 基于 Spring Boot 和 MyBatis 的电商系统示例，包含前台商城与后台管理，配套完整教程，并以 Docker 容器化部署，是国内常见的 Java 全栈学习项目。 |
+| [macrozheng/mall](https://github.com/macrozheng/mall) | 84.9k | #182 | 社区 | 基于 Spring Boot 和 MyBatis 的电商系统示例，包含前台商城与后台管理，配套完整教程，并以 Docker 容器化部署，是国内常见的 Java 全栈学习项目。 |
 | [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 84.2k | #188 | 社区 | 「RealWorld」全栈示例：同一个 Medium 克隆应用，用不同前端（React、Angular 等）和后端（Node、Django 等）实现，共享统一 API 规范，可任意组合。 |
 | [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) | 57.6k | #399 | 社区 | 前端模板项目，汇集十多年社区经验的合理默认值（重置样式、缓存与安全配置等），作为构建快速健壮网站的起点。 |
 | [golang-standards/project-layout](https://github.com/golang-standards/project-layout) | 56.7k | #409 | 社区 | Go 项目的常见目录结构约定（cmd、internal、pkg 等），社区总结的布局参考，并非官方标准。 |
@@ -153,13 +155,14 @@ SaaS 模板、全栈起步项目、示例应用和最佳实践参考实现，以
 
 ### 管理后台与低代码
 
-后台管理模板、内部工具、低代码 / 无代码应用构建平台与工作流搭建工具 · 18 个
+后台管理模板、内部工具、低代码 / 无代码应用构建平台与工作流搭建工具 · 19 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) | 90.2k | #169 | 社区 | 基于 Vue 与 Element UI 的后台管理前端方案，内置权限验证、动态路由、多环境构建和典型业务模板，是国内流行的 Vue 后台脚手架。 |
 | [nocodb/nocodb](https://github.com/nocodb/nocodb) | 65.1k | #317 | 官方 · NocoDB | 可自托管的 Airtable 开源替代品，把 MySQL、Postgres、SQLite 等数据库变成带表格视图的界面，并自动生成 API。 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | 56.9k | #406 | 社区 | 收集的 n8n 自动化工作流模板合集，可通过基于 SQLite FTS5 的在线搜索界面浏览，也提供 Docker 镜像本地运行。 |
+| [huginn/huginn](https://github.com/huginn/huginn) | 50k | #500 | 社区 | 用于构建自动执行任务的代理系统，代理读取网页、监听事件并采取行动，事件沿有向图传播，可看作自托管、可深度定制的 IFTTT 或 Zapier。 |
 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | #537 | 社区 | 企业级低代码平台，可在线配置并一键生成前后端代码、表单、报表与流程，基于 Spring Boot 与 Vue，并集成 AI 应用能力。 |
 | [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | 45.6k | #591 | 社区 | 基于 Bootstrap 5 的免费后台管理面板模板，纯原生 JavaScript，响应式并高度可定制。 |
 | [tabler/tabler](https://github.com/tabler/tabler) | 41.8k | #677 | 社区 | 基于 Bootstrap 5 的免费开源 HTML 仪表盘 UI 套件，提供丰富的页面模板和组件，含多个框架版本。 |
@@ -259,12 +262,13 @@ Android / iOS 开发框架、Flutter、React Native、Expo、Ionic 与小程序�
 
 ### 桌面应用框架
 
-Electron、Tauri、Wails 一类的桌面应用框架，以及 Rust / Go / C# 的原生 GUI 工具包 · 11 个
+Electron、Tauri、Wails 一类的桌面应用框架，以及 Rust / Go / C# 的原生 GUI 工具包 · 12 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [electron/electron](https://github.com/electron/electron) | 123.3k | #89 | 社区 | 用 JavaScript、HTML 和 CSS 构建跨平台桌面应用的框架，内嵌 Chromium 与 Node.js，VS Code 等众多桌面应用基于它开发。 |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | 111.5k | #104 | 社区 | 用 Web 前端加 Rust 后端构建体积小、安全的桌面与移动应用的框架，使用系统 WebView 而非内嵌浏览器，可搭配任意前端框架。 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | 76.4k | #232 | 社区 | Dear ImGui：面向 C++ 的轻量图形用户界面库，依赖极少，采用即时模式设计。 |
 | [tw93/Pake](https://github.com/tw93/Pake) | 61.8k | #351 | 社区 | 一条命令把任意网页打成轻量桌面应用，基于 Tauri 与 Rust，支持 macOS、Windows 和 Linux，体积远小于 Electron 方案。 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41.2k | #691 | 社区 | 基于 Chromium 与 Node.js 的应用运行时（原名 node-webkit），可用 HTML 和 JavaScript 编写桌面应用并直接调用 Node 模块。 |
 | [wailsapp/wails](https://github.com/wailsapp/wails) | 36.4k | #878 | 社区 | 用 Go 与 Web 技术构建桌面应用的框架，前端用任意 Web 框架，后端 Go 方法可直接被前端调用。 |
@@ -279,9 +283,9 @@ Electron、Tauri、Wails 一类的桌面应用框架，以及 Rust / Go / C# 的
 
 搭建界面用的现成组件与图形库：组件库、动效、图表与图形、编辑器、交互小组件和媒体组件
 
-### 组件库、CSS 与图标
+### 组件库与 CSS 框架
 
-组件库、设计系统、CSS / 样式框架与图标集（shadcn/ui、Ant Design、Bootstrap、Tailwind、Font Awesome 一类） · 37 个
+组件库、设计系统和 CSS / 样式框架（shadcn/ui、Ant Design、Bootstrap、Tailwind 一类） · 31 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -290,8 +294,6 @@ Electron、Tauri、Wails 一类的桌面应用框架，以及 Rust / Go / C# 的
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.6k | #129 | 官方 · Ant Group | 蚂蚁集团的企业级 React UI 组件库与设计语言，提供数据密集型后台常用的表格、表单、布局等丰富组件，中文生态成熟。 |
 | [mui/material-ui](https://github.com/mui/material-ui) | 99.1k | #130 | 官方 · MUI | 实现 Google Material Design 的 React 组件库，提供样式系统与主题定制，另有数据表格、图表等进阶组件。 |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 97.7k | #134 | 官方 · Tailwind Labs | 原子化（utility-first）CSS 框架，直接在标记里组合类名构建界面，通过构建时扫描按需生成样式，体积小且易定制。 |
-| [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) | 76.9k | #226 | 官方 · Fonticons | 使用最广的图标库，以 SVG、字体和 CSS 形式提供数千个图标，免费版与 Pro 版并行。 |
-| [google/material-design-icons](https://github.com/google/material-design-icons) | 54.1k | #440 | 官方 · Google | Google 官方的 Material 图标集，包含现行的 Material Symbols（可变字体）和经典的 Material Icons。 |
 | [ElemeFE/element](https://github.com/ElemeFE/element) | 54k | #441 | 官方 · Eleme | 饿了么开源的 Vue 2 桌面端 UI 组件库（Element UI），Vue 3 版本请使用社区维护的 Element Plus。 |
 | [necolas/normalize.css](https://github.com/necolas/normalize.css) | 53.5k | #449 | 社区 | CSS 重置的现代替代方案，保留有用的浏览器默认样式并抹平跨浏览器差异。 |
 | [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) | 51k | #484 | 社区 | 以自然语言命名理念设计的 UI 组件框架，提供五十多个组件、可主题化的 CSS 变量，类名读起来像句子。 |
@@ -310,18 +312,34 @@ Electron、Tauri、Wails 一类的桌面应用框架，以及 Rust / Go / C# 的
 | [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) | 28.8k | #1336 | 官方 · Tailwind Labs | 完全无样式、可访问的 UI 组件（下拉、对话框、标签页等），与 Tailwind CSS 搭配，提供 React 与 Vue 版本。 |
 | [element-plus/element-plus](https://github.com/element-plus/element-plus) | 27.8k | #1416 | 社区 | 基于 Vue 3 组合式 API 与 TypeScript 的 UI 组件库，由 Element 团队打造，是 Element UI 的 Vue 3 继任者。 |
 | [Tencent/weui](https://github.com/Tencent/weui) | 27.4k | #1445 | 官方 · Tencent | 微信官方设计团队的移动 Web UI 库，提供贴近微信原生风格的组件，适用于公众号网页和小程序。 |
-| [feathericons/feather](https://github.com/feathericons/feather) | 26k | #1566 | 社区 | 简洁美观的开源 SVG 图标集，每个图标都为 24×24 网格设计，风格统一。 |
-| [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 25.9k | #1575 | 社区 | 热门品牌的 SVG 图标集合，提供数千个品牌矢量图标，可用于社交链接、技术栈展示等。 |
 | [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) | 25.9k | #1582 | 社区 | React Native 跨平台 UI 工具包，提供按钮、输入框、列表等常用组件并支持主题。 |
 | [angular/components](https://github.com/angular/components) | 25k | #1665 | 社区 | Angular 官方组件库，含 Material Design 组件和组件开发工具包（CDK）。 |
-| [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 24.8k | #1691 | 社区 | 社区维护的图标集，风格统一，是 Feather 的分支，提供 React、Vue、Svelte 等框架的组件包。 |
 | [youzan/vant](https://github.com/youzan/vant) | 24.4k | #1735 | 官方 · Youzan | 有赞的轻量、可定制的 Vue 移动端组件库，覆盖电商和移动 Web 常见组件。 |
 | [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) | 24.3k | #1753 | 官方 · MDBootstrap | Bootstrap 5 与 Material Design UI 套件，提供七百多个原生 JavaScript 组件，安装简单。 |
-| [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) | 23.8k | #1789 | 官方 · Tailwind Labs | Tailwind CSS 团队手工制作的免费 SVG 图标集，提供多种风格，有 React、Vue 组件包。 |
 | [iview/iview](https://github.com/iview/iview) | 23.8k | #1802 | 社区 | 基于 Vue.js 的高质量 UI 组件库（现更名为 View UI），提供大量实用组件。 |
 | [pure-css/pure](https://github.com/pure-css/pure) | 23.7k | #1806 | 社区 | 一组小巧的响应式 CSS 模块，可用于任何 Web 项目，出自 Yahoo。 |
 | [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) | 22.6k | #1936 | 社区 | 用 React 重写的 Bootstrap 5 组件，不依赖 jQuery，以 React 组件方式使用 Bootstrap。 |
 | [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | 22.4k | #1964 | 社区 | 面向设计工程师的动画 React 组件库，复制粘贴即可使用，基于 Tailwind CSS 与 Framer Motion，免费开源。 |
+
+### 图标、字体与主题
+
+图标集与图标字体（Font Awesome、Lucide 一类）、编程字体（Fira Code、Nerd Fonts、Iosevka 一类），以及 Dracula 这类跨应用的配色主题 · 13 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | 82.1k | #201 | 社区 | 带编程连字的免费等宽字体，把常见的多字符符号序列（如箭头、比较运算符）渲染为更易读的单个字形，并附安装与排错说明。 |
+| [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) | 76.9k | #226 | 官方 · Fonticons | 使用最广的图标库，以 SVG、字体和 CSS 形式提供数千个图标，免费版与 Pro 版并行。 |
+| [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 64.8k | #319 | 社区 | 为开发者字体打补丁的项目，把 3600 多个图标和字形集合（Font Awesome、Material Design Icons、Octicons 等）合并进 50 多款常用编程字体，并提供字体补丁工具。 |
+| [google/material-design-icons](https://github.com/google/material-design-icons) | 54.1k | #440 | 官方 · Google | Google 官方的 Material 图标集，包含现行的 Material Symbols（可变字体）和经典的 Material Icons。 |
+| [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | 29.1k | #1308 | 社区 | Maple Mono：带连字与 Nerd Font 图标、圆角设计的开源等宽字体，适合 IDE 与终端，中英文宽度为 2:1，提供细粒度的自定义选项。 |
+| [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | 27.9k | #1410 | 官方 · Microsoft | 随 Windows Terminal 一同发布的编程字体，包含连字，现已是 Visual Studio 的默认字体，并提供带 Powerline 与 Nerd Font 符号的变体。 |
+| [powerline/fonts](https://github.com/powerline/fonts) | 26.3k | #1537 | 社区 | 为 Powerline 状态栏插件预先打过补丁并调整过的字体集合，提供安装脚本，Debian 与 Ubuntu 系统也有对应软件包。 |
+| [feathericons/feather](https://github.com/feathericons/feather) | 26k | #1566 | 社区 | 简洁美观的开源 SVG 图标集，每个图标都为 24×24 网格设计，风格统一。 |
+| [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 25.9k | #1575 | 社区 | 热门品牌的 SVG 图标集合，提供数千个品牌矢量图标，可用于社交链接、技术栈展示等。 |
+| [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 24.8k | #1691 | 社区 | 社区维护的图标集，风格统一，是 Feather 的分支，提供 React、Vue、Svelte 等框架的组件包。 |
+| [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) | 23.8k | #1789 | 官方 · Tailwind Labs | Tailwind CSS 团队手工制作的免费 SVG 图标集，提供多种风格，有 React、Vue 组件包。 |
+| [dracula/dracula-theme](https://github.com/dracula/dracula-theme) | 23.6k | #1821 | 社区 | Dracula 主题：一个配色方案覆盖 VS Code、iTerm、Vim、JetBrains、Windows Terminal、Zsh 等 400 多个应用，附完整调色板。 |
+| [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22.8k | #1916 | 社区 | 为编写代码、终端使用和技术文档设计的开源无衬线加板状衬线等宽字体族。 |
 
 ### 交互小组件
 
@@ -425,7 +443,7 @@ CSS / JS 动画库、滚动动效、Lottie 一类的矢量动画渲染 · 13 个
 
 ### 媒体、文档与演示
 
-视频与音频播放、图片浏览、PDF 渲染、演示幻灯片和程序化视频生成（video.js、Howler.js、pdf.js、reveal.js、Remotion 一类） · 9 个
+视频与音频播放、图片浏览、PDF 渲染、演示幻灯片和程序化视频生成（video.js、Howler.js、pdf.js、reveal.js、Remotion 一类） · 10 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -438,6 +456,7 @@ CSS / JS 动画库、滚动动效、Lottie 一类的矢量动画渲染 · 13 个
 | [sampotts/plyr](https://github.com/sampotts/plyr) | 30k | #1221 | 社区 | 简洁的 HTML5、YouTube 和 Vimeo 播放器，界面可定制、无障碍友好；项目提示可迁移到 Video.js。 |
 | [goldfire/howler.js](https://github.com/goldfire/howler.js) | 25.4k | #1637 | 社区 | 面向现代网页的 JavaScript 音频库，默认使用 Web Audio API 并回退到 HTML5 Audio，提供跨平台的音频播放、空间音效与音频精灵。 |
 | [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | 25.3k | #1645 | 社区 | 模块化、不依赖框架的 JavaScript 图片画廊，支持桌面和移动端的手势缩放与滑动。 |
+| [bilibili/flv.js](https://github.com/bilibili/flv.js) | 23.2k | #1871 | 官方 · Bilibili | 用纯 JavaScript 编写、不依赖 Flash 的 HTML5 FLV 播放器，借助 Media Source Extensions 把 FLV 转封装为 MP4 分片；README 说明项目将很少维护。 |
 
 ## 工程化工具链
 
@@ -528,11 +547,12 @@ Lint、格式化工具与 JavaScript / Python 的代码风格规范（ESLint、P
 
 ### 开发者体验与 Monorepo
 
-Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章与代码截图等提升开发效率的小工具，以及面向开发者的在线工具箱 · 18 个
+Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章与代码截图等提升开发效率的小工具，以及面向开发者的在线工具箱 · 20 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | #159 | 社区 | UI 组件的隔离开发环境，可以在独立于应用的沙盒里构建、预览、文档化和测试组件，支持 React、Vue、Angular 等多种框架。 |
+| [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79.8k | #212 | 社区 | 为 GitHub README 动态生成统计卡片的服务；README 说明该仓库不再维护，建议改用后继项目 GitHub Stats Extended。 |
 | [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | 59.7k | #378 | 社区 | 零配置生成本地受信任开发证书的工具，自动创建本地 CA 并装入系统信任库，方便在本地用 HTTPS 调试。 |
 | [google/zx](https://github.com/google/zx) | 45.8k | #587 | 官方 · Google | 用 JavaScript 编写更好用的 shell 脚本，封装 child_process，提供 $ 模板字符串、并行和错误处理。 |
 | [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | 40.7k | #707 | 社区 | 面向开发者与 IT 人员的在线工具集合，体验良好，可通过 Docker 自托管。 |
@@ -549,6 +569,7 @@ Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章�
 | [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | 25.2k | #1650 | 社区 | 面向响应式网页开发的桌面浏览器，可同时在多种设备尺寸下预览同一页面并同步滚动和交互。 |
 | [go-delve/delve](https://github.com/go-delve/delve) | 24.9k | #1676 | 社区 | Go 语言调试器，支持断点、变量查看、goroutine 检查，可用于命令行和多种 IDE。 |
 | [vuejs/devtools-v6](https://github.com/vuejs/devtools-v6) | 24.7k | #1703 | 社区 | 调试 Vue.js 应用的浏览器开发者工具扩展（旧版），新版已在 vuejs/devtools 中开发。 |
+| [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) | 24.4k | #1723 | 社区 | 用简洁界面生成 GitHub 个人主页 README 的工具，填写姓名、简介、平台账号后可加入访客计数、GitHub 统计等附加内容。 |
 | [air-verse/air](https://github.com/air-verse/air) | 24k | #1769 | 社区 | Go 应用的热重载命令行工具，监听文件变化后自动重新编译并运行。 |
 
 ## 编程语言与开发环境
@@ -619,7 +640,7 @@ Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章�
 
 ### Shell 与终端
 
-Shell、终端模拟器与复用器，以及 Shell 的提示符、主题、插件、补全与 dotfiles 配置（Zsh、Fish、Tmux、Alacritty、Oh My Zsh、Starship 一类） · 28 个
+Shell、终端模拟器与复用器，以及 Shell 的提示符、主题、插件、补全与 dotfiles 配置（Zsh、Fish、Tmux、Alacritty、Oh My Zsh、Starship 一类） · 29 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -645,6 +666,7 @@ Shell、终端模拟器与复用器，以及 Shell 的提示符、主题、插�
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 31.9k | #1106 | 社区 | 用 SQLite 数据库取代 Shell 历史，额外记录退出码、耗时与目录等上下文，提供搜索界面和可选的端到端加密跨机器同步。 |
 | [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) | 31.5k | #1136 | 社区 | Mathias 的个人 dotfiles，包含 bash 配置与 macOS 合理默认设置（~/.macos），通过引导脚本安装，作者提醒使用前先 fork 并审阅代码。 |
 | [wezterm/wezterm](https://github.com/wezterm/wezterm) | 29.1k | #1310 | 社区 | 用 Rust 编写的 GPU 加速跨平台终端模拟器与复用器，支持标签、分屏、Lua 配置和内置多路复用。 |
+| [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | 27.2k | #1461 | 社区 | 600 多套终端配色方案，最初面向 iTerm2，并移植到 Terminal、Konsole、PuTTY、Windows Terminal、Alacritty、Ghostty 等众多终端与应用。 |
 | [cmderdev/cmder](https://github.com/cmderdev/cmder) | 27k | #1481 | 社区 | 基于 ConEmu 的 Windows 便携式控制台模拟器套件，附带 Monokai 配色、clink 补全与自定义提示符，无需外部依赖，可放在 U 盘或云盘中携带。 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 26.5k | #1528 | 社区 | 模拟老式阴极射线管显示器外观的终端模拟器，注重视觉效果与可定制性，基于 Qt 6 的 QML 实现，支持 Linux 与 macOS。 |
 | [gpakosz/.tmux](https://github.com/gpakosz/.tmux) | 25.4k | #1632 | 社区 | 自包含、美观且实用的 tmux 配置（Oh my tmux!），提供状态栏、鼠标与剪贴板集成等增强，可在 Linux、macOS、BSD 上使用。 |
@@ -670,13 +692,14 @@ Git 本体、其他版本控制系统，以及 Git 图形与终端客户端、�
 
 ### 命令行工具
 
-curl 等命令行基础工具，以及 fzf、ripgrep、jq、bat 一类的现代命令行工具、文件管理器、系统监控与基准测试工具 · 25 个
+curl 等命令行基础工具，以及 fzf、ripgrep、jq、bat 一类的现代命令行工具、文件管理器、系统监控与基准测试工具 · 27 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [junegunn/fzf](https://github.com/junegunn/fzf) | 83.3k | #191 | 社区 | 通用命令行模糊查找器与交互式终端工具包，可用来选择文件、浏览命令历史、预览数据，并与 Shell 深度集成，以单个二进制发布。 |
 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | 68.7k | #284 | 社区 | 按行搜索的命令行工具，递归搜索目录中的正则匹配，默认遵守 gitignore 并跳过隐藏与二进制文件，支持 Windows、macOS 和 Linux。 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | 60.6k | #368 | 社区 | 带语法高亮与 Git 集成的 cat 替代品，支持多种编程与标记语言、自动分页并可显示不可见字符。 |
+| [jgm/pandoc](https://github.com/jgm/pandoc) | 46.5k | #572 | 社区 | 通用标记语言转换器：既是 Haskell 库也是命令行工具，可在 Markdown、AsciiDoc、HTML、LaTeX、DOCX 等多种格式之间转换。 |
 | [sharkdp/fd](https://github.com/sharkdp/fd) | 44.6k | #615 | 社区 | find 的简单、快速、易用的替代品，默认支持正则与 glob、并行遍历目录、彩色输出并遵守 gitignore。 |
 | [curl/curl](https://github.com/curl/curl) | 43k | #651 | 社区 | 用 URL 语法传输数据的命令行工具与 libcurl 库，支持 HTTP(S)、FTP、SFTP、SMTP、IMAP、MQTT、WebSocket 等数十种协议。 |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 42.5k | #659 | 社区 | 用 Rust 编写、基于非阻塞异步 I/O 的终端文件管理器，所有 I/O 操作异步执行，CPU 任务分散到多线程，注重速度与可定制性。 |
@@ -686,6 +709,7 @@ curl 等命令行基础工具，以及 fzf、ripgrep、jq、bat 一类的现代�
 | [casey/just](https://github.com/casey/just) | 36.1k | #892 | 社区 | 保存并运行项目命令的命令运行器，用类 make 语法在 justfile 中定义任务（recipes），并支持参数、跨平台和 Shell 集成。 |
 | [jqlang/jq](https://github.com/jqlang/jq) | 35.7k | #907 | 社区 | 轻量灵活的命令行 JSON 处理器，类似 sed、awk 之于文本，用于切片、过滤、映射和转换结构化数据，用 C 编写且无运行时依赖。 |
 | [aristocratos/btop](https://github.com/aristocratos/btop) | 34.8k | #941 | 社区 | 命令行资源监视器，实时显示 CPU、内存、磁盘、网络与进程信息，界面美观、支持主题，可在 Linux、macOS 与 BSD 上运行。 |
+| [microsoft/WSL](https://github.com/microsoft/WSL) | 33.8k | #999 | 官方 · Microsoft | 适用于 Linux 的 Windows 子系统，可在 Windows 上直接运行未经修改的 Linux 命令行工具和应用，无需传统虚拟机或双系统。 |
 | [nicolargo/glances](https://github.com/nicolargo/glances) | 33.7k | #1005 | 社区 | 用 Python 编写的跨平台系统监控工具，是 top / htop 的替代品，可在终端或 Web 界面中查看 CPU、内存、磁盘与网络等系统信息。 |
 | [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) | 28.9k | #1325 | 社区 | 命令行基准测试工具，可对任意 Shell 命令多次运行做统计分析，支持预热、清缓存、异常值检测并导出 CSV 与 JSON 等格式。 |
 | [charmbracelet/glow](https://github.com/charmbracelet/glow) | 27.5k | #1436 | 官方 · Charm | 在终端里渲染 Markdown 的阅读器，可发现并浏览本地或 Git 仓库中的 Markdown 文件，直接在命令行阅读文档。 |
@@ -777,7 +801,7 @@ Express、FastAPI、Spring Boot、Gin、NestJS 等服务端 Web 框架与网络�
 
 ### API 与网关
 
-API 设计、调试、文档、GraphQL / tRPC / gRPC、网关与代理框架、实时通信 · 24 个
+API 设计、调试、文档、GraphQL / tRPC / gRPC、网关与代理框架、实时通信 · 25 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -787,6 +811,7 @@ API 设计、调试、文档、GraphQL / tRPC / gRPC、网关与代理框架、�
 | [socketio/socket.io](https://github.com/socketio/socket.io) | 63.2k | #335 | 社区 | 基于 WebSocket 的双向低延迟实时通信库，含服务端与客户端，自带断线重连、房间与广播、长轮询降级。 |
 | [usebruno/bruno](https://github.com/usebruno/bruno) | 47.3k | #554 | 官方 · Bruno | 开源 API 调试工具，集合以纯文本文件保存在本地并可用 Git 管理，定位为 Postman 和 Insomnia 的轻量替代品。 |
 | [grpc/grpc](https://github.com/grpc/grpc) | 45.4k | #596 | 社区 | Google 开源的高性能 RPC 框架，基于 HTTP/2 和 Protocol Buffers，支持多语言客户端与服务端，适合微服务通信。 |
+| [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | 45.2k | #599 | 社区 | 支持 SSL/TLS 的交互式拦截代理，面向渗透测试人员与软件开发者，提供 HTTP/1、HTTP/2 与 WebSocket 的控制台界面，另有命令行版 mitmdump 和网页版 mitmweb。 |
 | [Kong/kong](https://github.com/Kong/kong) | 44.2k | #620 | 官方 · Kong | 云原生 API 网关（现也支持 LLM 网关），基于 Nginx 与 Lua，提供路由、认证、限流和插件扩展。 |
 | [trpc/trpc](https://github.com/trpc/trpc) | 40.7k | #708 | 社区 | 端到端类型安全的 API 方案，前端直接调用服务端函数并获得类型推断，无需 schema 或代码生成。 |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | 40k | #729 | 官方 · Kong | 开源跨平台 API 客户端，支持 REST、GraphQL、WebSocket、SSE 和 gRPC，可选云端、本地或 Git 存储。 |
@@ -901,11 +926,12 @@ ORM / 查询构建器、数据库客户端与建模工具 · 13 个
 
 ### 消息与任务队列
 
-消息队列、事件流、后台任务队列与通知基础设施（Kafka、RocketMQ、Celery 一类） · 5 个
+消息队列、事件流、后台任务队列与通知基础设施（Kafka、RocketMQ、Celery 一类） · 6 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [novuhq/novu](https://github.com/novuhq/novu) | 40.1k | #726 | 官方 · Novu | 开源的通知基础设施，一个 API 统一管理应用内、邮件、短信、推送等多渠道通知，附带收件箱组件。 |
+| [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) | 34.5k | #951 | 社区 | 基于 HTTP 的简单发布订阅通知服务，可通过 PUT / POST 从脚本向手机或桌面推送通知，无需注册，也可自行部署。 |
 | [apache/kafka](https://github.com/apache/kafka) | 33.9k | #993 | 社区 | 分布式事件流平台，用于高吞吐的数据管道、流分析和数据集成，广泛用作消息队列与事件总线。 |
 | [celery/celery](https://github.com/celery/celery) | 28.9k | #1326 | 社区 | Python 分布式任务队列，通过消息代理异步执行任务，支持定时任务与结果存储，常与 Django、Flask 搭配。 |
 | [nsqio/nsq](https://github.com/nsqio/nsq) | 25.8k | #1594 | 社区 | 实时分布式消息平台，用 Go 编写，去中心化、无单点故障，适合大规模消息投递与处理。 |
@@ -930,7 +956,7 @@ ORM / 查询构建器、数据库客户端与建模工具 · 13 个
 
 ### 数据分析、BI 与产品分析
 
-可自托管的 BI 与数据分析平台，以及网站与产品分析工具（Superset、Metabase、PostHog、Plausible 一类） · 7 个
+可自托管的 BI 与数据分析平台，以及网站与产品分析工具（Superset、Metabase、PostHog、Plausible 一类） · 8 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -941,6 +967,7 @@ ORM / 查询构建器、数据库客户端与建模工具 · 13 个
 | [plausible/analytics](https://github.com/plausible/analytics) | 29.3k | #1296 | 官方 · Plausible | 轻量、注重隐私的网站分析工具，无 Cookie，可自托管或使用云服务，是 Google Analytics 的替代。 |
 | [getredash/redash](https://github.com/getredash/redash) | 28.8k | #1332 | 官方 · Redash | 面向团队的数据查询与可视化平台，可连接多种数据源，用 SQL 在浏览器中查询、制作图表与仪表盘并分享。 |
 | [dataease/dataease](https://github.com/dataease/dataease) | 24.6k | #1713 | 官方 · DataEase | 开源 BI 工具，通过拖拽制作图表与仪表盘，支持 OLTP、OLAP 数据库、数据仓库、文件与 API 等多种数据源，并支持嵌入与分享。 |
+| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 23k | #1896 | 官方 · marimo | 响应式 Python 笔记本：运行单元格或操作界面元素后自动运行相关单元格，笔记本以纯 Python 存储，可作为脚本执行或部署为应用，并支持 SQL 与 Git 版本管理。 |
 
 ## 通用库与 SDK
 
@@ -948,7 +975,7 @@ ORM / 查询构建器、数据库客户端与建模工具 · 13 个
 
 ### JS / TS 通用库
 
-日期、校验、数据处理、文档与图片处理、HTTP 与响应式等 JavaScript / TypeScript 库 · 34 个
+日期、校验、数据处理、文档与图片处理、HTTP 与响应式等 JavaScript / TypeScript 库 · 36 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -965,9 +992,11 @@ ORM / 查询构建器、数据库客户端与建模工具 · 13 个
 | [lovell/sharp](https://github.com/lovell/sharp) | 32.7k | #1062 | 社区 | 基于 libvips 的高性能 Node.js 图片处理模块，快速缩放和转换 JPEG、PNG、WebP、AVIF 等格式。 |
 | [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) | 31.9k | #1103 | 社区 | 在浏览器里把网页元素渲染成 Canvas 截图的库，基于 DOM 和 CSS 信息重建而非真实截屏。 |
 | [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) | 31.7k | #1124 | 社区 | JavaScript 的响应式编程库，用 Observable 组合异步和基于事件的程序，是 Angular 的核心依赖。 |
+| [webtorrent/webtorrent](https://github.com/webtorrent/webtorrent) | 31.4k | #1141 | 社区 | 用纯 JavaScript 编写的流式 BitTorrent 客户端，同一份代码可运行在 Node.js 与浏览器中，浏览器里通过 WebRTC 数据通道实现点对点传输。 |
 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | #1146 | 社区 | 在客户端用 JavaScript 生成 PDF 的库，可直接在浏览器中创建和下载文档。 |
 | [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) | 30.5k | #1187 | 社区 | 快速灵活的 HTML / XML 解析与操作库，在服务端提供类 jQuery 的 API，常用于网页抓取。 |
 | [immerjs/immer](https://github.com/immerjs/immer) | 29k | #1320 | 社区 | 通过「直接修改草稿」来生成下一个不可变状态的库，简化 Redux 等场景下的不可变更新。 |
+| [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) | 28.5k | #1359 | 官方 · Fingerprint | 开源的客户端浏览器指纹库，通过读取浏览器属性计算出哈希访问者标识，在无痕模式和清除浏览器数据后依然保持不变。 |
 | [caolan/async](https://github.com/caolan/async) | 28.1k | #1397 | 社区 | 适用于 Node.js 和浏览器的异步工具库，提供 map、series、parallel、queue 等处理异步流程的函数。 |
 | [jashkenas/underscore](https://github.com/jashkenas/underscore) | 27.3k | #1452 | 社区 | 经典 JavaScript 工具函数库，提供函数式辅助方法，是 Lodash 的前身。 |
 | [ai/nanoid](https://github.com/ai/nanoid) | 27k | #1485 | 社区 | 仅 118 字节的安全、URL 友好的唯一 ID 生成器，可替代 UUID，支持多种语言实现。 |
@@ -1012,7 +1041,7 @@ Java、Kotlin 与 Android 的工具库、网络库与图片加载库 · 16 个
 
 ### Python / Go / Swift / PHP 通用库
 
-其他语言生态的 HTTP 客户端、日志、配置与校验库 · 20 个
+其他语言生态的 HTTP 客户端、日志、配置与校验库 · 21 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1032,6 +1061,7 @@ Java、Kotlin 与 Android 的工具库、网络库与图片加载库 · 16 个
 | [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift) | 24.6k | #1708 | 社区 | Swift 的响应式编程库，用 Observable 表达异步和事件流，iOS 开发中常配合 MVVM 使用。 |
 | [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) | 24.4k | #1734 | 社区 | 纯 Swift 编写的图片下载与缓存库，提供内存 / 磁盘缓存、图片处理和 SwiftUI 支持。 |
 | [Delgan/loguru](https://github.com/Delgan/loguru) | 24.1k | #1760 | 社区 | 让 Python 日志变得简单的库，开箱即用，一行代码配置输出、轮转、格式和异常捕获。 |
+| [jhao104/proxy_pool](https://github.com/jhao104/proxy_pool) | 23.7k | #1805 | 社区 | 面向网络爬虫的 Python 代理 IP 池，自动从免费代理源抓取并校验代理，提供 API 获取可用代理，并支持扩展新的代理来源。 |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | 23.5k | #1838 | 社区 | 可扩展的 PHP HTTP 客户端，简化发送同步 / 异步请求并集成 Web 服务，遵循 PSR-7。 |
 | [SwiftyJSON/SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) | 22.9k | #1898 | 社区 | 让 Swift 处理 JSON 数据更简单的库，避免层层可选值解包。 |
 | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | 22.3k | #1980 | 社区 | 经典的 PHP 邮件发送库，支持 SMTP、附件、HTML 邮件与多种认证方式。 |
@@ -1129,7 +1159,7 @@ Kubernetes 及其发行版、本地集群、服务网格、包管理、镜像仓
 
 ### 反向代理、证书与隧道
 
-Web 服务器与反向代理、HTTPS 证书自动化、内网穿透与本地隧道（Nginx、Caddy、Traefik、Certbot、frp 一类） · 10 个
+Web 服务器与反向代理、Web 应用防火墙、HTTPS 证书自动化、内网穿透与本地隧道（Nginx、Caddy、Traefik、Certbot、frp 一类） · 14 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1138,10 +1168,14 @@ Web 服务器与反向代理、HTTPS 证书自动化、内网穿透与本地隧�
 | [traefik/traefik](https://github.com/traefik/traefik) | 65k | #318 | 官方 · Traefik Labs | 云原生 HTTP 反向代理与负载均衡器，能自动发现 Docker、Kubernetes 等后端并动态更新路由，内置 Let's Encrypt 支持。 |
 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 47.8k | #545 | 社区 | 纯 Unix Shell 实现的 ACME 客户端，用来自动申请和续期 Let's Encrypt 等机构的 SSL / TLS 证书，无需额外依赖。 |
 | [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | 34.3k | #967 | 社区 | 带图形界面的 Nginx 反向代理管理 Docker 镜像，无需了解 Nginx 配置即可转发站点并自动申请免费 SSL 证书。 |
+| [ehang-io/nps](https://github.com/ehang-io/nps) | 34.2k | #972 | 社区 | 轻量高性能的内网穿透代理服务器，支持 TCP、UDP、SOCKS5、HTTP 等协议转发，可用于访问内网网站、调试本地接口、SSH 与远程桌面，带 Web 管理端。 |
 | [certbot/certbot](https://github.com/certbot/certbot) | 33.3k | #1034 | 社区 | EFF 出品的 Let's Encrypt 证书申请工具，可自动获取证书并为服务器启用 HTTPS，也支持其他 ACME 机构。 |
 | [nginx/nginx](https://github.com/nginx/nginx) | 31.8k | #1113 | 官方 · F5 | NGINX 开源仓库，高性能 Web 服务器、反向代理、负载均衡与内容缓存，全球使用最广泛的 Web 服务器之一。 |
 | [digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io) | 28.3k | #1379 | 官方 · DigitalOcean | NGINX 配置生成器，通过图形界面选择选项，生成包含 SSL、缓存、安全头等最佳实践的配置文件。 |
 | [inconshreveable/ngrok](https://github.com/inconshreveable/ngrok) 🗄️已归档 | 24.4k | #1729 | 社区 | ngrok 1.x 的历史开源代码，早期把本地服务通过隧道暴露到公网的工具，仓库已归档，现由商业产品 ngrok 继续。 |
+| [fosrl/pangolin](https://github.com/fosrl/pangolin) | 23k | #1893 | 官方 · Fossorial | 基于 WireGuard 的开源 SASE 平台，把零信任 VPN、零信任反向代理、特权访问管理和身份感知的 AI 网关放在同一套身份与策略模型下。 |
+| [TecharoHQ/anubis](https://github.com/TecharoHQ/anubis) | 22.8k | #1917 | 官方 · Techaro | Web AI 防火墙工具，通过挑战机制衡量请求来源，保护上游资源免受爬虫机器人冲击，尽量保持轻量以便小型站点使用。 |
+| [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | 22.7k | #1924 | 官方 · Chaitin | 自托管的 Web 应用防火墙与反向代理，通过过滤和监控 HTTP 流量保护 Web 应用免受 SQL 注入、XSS、代码注入等攻击。 |
 | [localtunnel/localtunnel](https://github.com/localtunnel/localtunnel) | 22.5k | #1957 | 社区 | 把本地服务通过公共 URL 暴露到互联网的隧道工具，一行命令即可分享本地开发服务器。 |
 
 ### CI/CD 与自动化
@@ -1187,7 +1221,7 @@ Web 服务器与反向代理、HTTPS 证书自动化、内网穿透与本地隧�
 
 ### 路线图与综合课程
 
-开发者路线图、综合课程、编程书单、CS 自学路线和实战项目合集 · 18 个
+开发者路线图、综合课程、编程书单、CS 自学路线、大学课程清单、论文阅读、项目创意与实战项目合集 · 26 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1199,75 +1233,103 @@ Web 服务器与反向代理、HTTPS 证书自动化、内网穿透与本地隧�
 | [ossu/computer-science](https://github.com/ossu/computer-science) | 209.6k | #26 | 社区 | 面向自学者的免费计算机科学完整课程体系，用线上课程组成本科级别的课程路径，覆盖编程、数学、系统、理论与应用。 |
 | [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) | 129.3k | #82 | 社区 | 面向 JavaScript、Python、CSS、React、Git 等的短小实用代码片段与文章合集，可按标签和语言检索。 |
 | [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) | 119.2k | #95 | 社区 | 免费编程类中文书籍索引，按语言无关类、操作系统、分布式系统、编译原理、Web 服务器、版本控制、数据库等目录整理。 |
+| [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) | 110.1k | #108 | 社区 | 围绕阅读与讨论计算机科学学术论文的社区，仓库是社区推荐的优秀论文目录，因版权原因不一定托管论文，但提供链接。 |
+| [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) | 100.5k | #127 | 社区 | 每位软件开发者都该了解的（主要是技术性的）资源合集，作者主观推荐，不分先后，涵盖各种技能水平与技术栈。 |
+| [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | 97.9k | #133 | 社区 | 为开发者提供应用创意的合集，帮助克服「无从下手」的问题，用于提升编码能力、尝试新技术并丰富作品集。 |
 | [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) | 96.9k | #138 | 官方 · Microsoft | 微软出品的 12 周 24 课 Web 开发入门课程，用 JavaScript、CSS、HTML 完成实战小项目，附测验和作业。 |
 | [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 83.6k | #190 | 社区 | 计算机科学视频课程清单，按算法、系统、编程语言、数据库、网络、软件工程等主题收录大学级别的公开视频课程。 |
 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 76k | #238 | 社区 | 计算机自学指南：作者按方向整理并点评了国内外名校开源的计算机课程，涵盖编程入门、数学、系统、算法、数据库、Web 开发等，附学习经验。 |
+| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | 71.5k | #273 | 社区 | 免费公开作业、讲义、笔记和考试的大学计算机课程精选清单，按算法、系统、编程语言与编译器、计算机图形学、安全等方向整理。 |
+| [karan/Projects](https://github.com/karan/Projects) | 48k | #539 | 社区 | 可用任意编程语言完成的实战项目清单，按类别分文件夹，每个项目都可提交解法，适合通过动手练习巩固编程能力。 |
 | [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) | 45.9k | #583 | 社区 | 免费的 9 周数据工程课程，通过从零搭建端到端数据管道，学习云、Docker、Kafka、Spark、dbt 等。 |
 | [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) | 44.3k | #618 | 社区 | 数据工程学习资源合集，汇总课程、书籍、工具和实战项目的链接。 |
 | [bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days) | 40.6k | #710 | 社区 | 50 多个 HTML / CSS / JavaScript 小项目合集，配套 50 天课程，适合边做边练前端基础。 |
 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | #755 | 社区 | API 文档浏览器，把多种开发文档整合在统一界面中，支持即时搜索、离线使用和深色主题。 |
 | [FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) | 37.8k | #815 | 社区 | freeCodeCamp 中文社区的开源代码与课程，包含浏览器内自学的前端、数据可视化、API 与微服务等全栈 JavaScript 课程体系。 |
+| [PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT) | 37.7k | #823 | 社区 | 清华大学计算机系课程攻略，由同学们共同整理各门课程的学习资料与经验，并提供在线网页版本。 |
 | [qianguyihao/Web](https://github.com/qianguyihao/Web) | 28.7k | #1341 | 社区 | 千古前端图文教程，从零基础到进阶的前端知识库，讲解 HTML、CSS、JavaScript、框架与工程化。 |
+| [forthespada/CS-Books](https://github.com/forthespada/CS-Books) | 27.4k | #1449 | 社区 | 超过一千本计算机经典书籍的分享与学习资料，涵盖 C/C++、Java、Python、Go、数据结构与算法、操作系统、数据库、计算机网络、设计模式等方向。 |
+| [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) | 23.8k | #1799 | 社区 | 开源计算机科学学位：用 MIT、斯坦福、普林斯顿等名校的免费课程，组成满足本科计算机专业要求（不含通识课）的学习清单。 |
 | [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) | 22.2k | #2000 | 社区 | TeachYourselfCS 的中文翻译：一份面向自学者的计算机科学学习指南，按主题推荐教材与课程。 |
 
-### 语言与框架教程
+### 前端、JavaScript 与移动教程
 
-JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速查表、练习和「陷阱」合集 · 34 个
+JavaScript、TypeScript、React、CSS、HTML 与 Android / Flutter 的教程、速查表、练习、周刊与知识体系 · 19 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 185k | #42 | 社区 | 深入讲解 JavaScript 语言核心机制（作用域、闭包、原型、类型、异步等）的系列书籍，目前为第二版。 |
+| [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) | 66.5k | #300 | 社区 | 每个 JavaScript 开发者都应掌握的 33 个核心概念，配文章与学习资料链接，涵盖闭包、原型、事件循环、异步等。 |
+| [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) | 65.3k | #313 | 社区 | 一组进阶 JavaScript 选择题及详细解析，考察作用域、原型、异步、类型转换等易错点。 |
+| [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) | 48.5k | #530 | 社区 | TypeScript 类型体操题库，带在线评测，通过练习掌握类型系统的进阶用法，从简单到极端难度分级。 |
+| [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react) | 47.1k | #560 | 社区 | 面向有经验 React 开发者的 TypeScript 速查表，涵盖组件、hooks、事件与常见类型写法。 |
+| [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 46.9k | #565 | 社区 | 30 天 JavaScript 学习挑战，按天讲解基础语法到 DOM、异步等主题，配有练习。 |
+| [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) | 37.7k | #820 | 社区 | 收集 JavaScript 中有趣又易踩坑的代码示例，逐条解释背后的语言规范与类型转换行为。 |
+| [ascoders/weekly](https://github.com/ascoders/weekly) | 31.2k | #1151 | 社区 | 「前端精读」周刊，每周精读一篇前端好文，涵盖前沿技术、源码解读，也涉及部分后端与商业思考。 |
+| [mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) | 31.1k | #1160 | 社区 | 冴羽的技术博客，系列文章包括 JavaScript 深入、专题、ES6 和 React，中文前端进阶资料。 |
+| [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) | 30.3k | #1200 | 社区 | 提升 CSS 水平的实用技巧合集，每条带简短示例。 |
+| [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) | 30.3k | #1201 | 社区 | 关于 HTML `<head>` 元素的速查指南，涵盖 meta、link、社交分享标签、图标等推荐写法。 |
+| [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) | 29.3k | #1294 | 社区 | 30 天原生 JavaScript 挑战，每天做一个小项目，不用框架和库，练习 DOM 和浏览器 API。 |
+| [lukehoban/es6features](https://github.com/lukehoban/es6features) | 29k | #1316 | 社区 | ECMAScript 6 新特性概览，用简短示例介绍箭头函数、类、模板字符串、解构、Promise、模块等。 |
+| [codepath/android_guides](https://github.com/codepath/android_guides) | 28.3k | #1372 | 社区 | CodePath 的 Android 开发速查指南，从环境搭建到常见组件、网络和架构的开源教程集合。 |
+| [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) | 27.5k | #1437 | 社区 | 30 天 React 学习挑战，按天讲解组件、props、状态、hooks 与路由等。 |
+| [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) | 25.6k | #1610 | 社区 | 现代 JavaScript 项目中常见知识点的速查表，涵盖箭头函数、解构、Promise、模块等。 |
+| [javascript-tutorial/en.javascript.info](https://github.com/javascript-tutorial/en.javascript.info) | 25.5k | #1626 | 社区 | 现代 JavaScript 教程（javascript.info 英文版内容仓库），从基础语法到浏览器 API 系统讲解。 |
+| [MostlyAdequate/mostly-adequate-guide](https://github.com/MostlyAdequate/mostly-adequate-guide) | 23.8k | #1791 | 社区 | 以 JavaScript 讲解函数式编程的开源电子书，涵盖纯函数、柯里化、组合、Functor、Monad 等概念。 |
+| [alibaba/flutter-go](https://github.com/alibaba/flutter-go) | 23.6k | #1816 | 官方 · Alibaba | 面向 Flutter 开发者的辅助应用，含 140 多个常用组件的演示和中文文档，目前已暂停维护。 |
+
+### 编程语言教程
+
+Python、Go、Rust、C++、Java 等语言的教程、速查表、练习和「陷阱」合集，以及正则表达式等通用语言技能 · 23 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) | 187k | #38 | 社区 | 《Python - 100天从新手到大师》：从语言基础、Web 开发、爬虫到数据分析的中文 Python 系统教程，按天数循序渐进。 |
-| [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 185k | #42 | 社区 | 深入讲解 JavaScript 语言核心机制（作用域、闭包、原型、类型、异步等）的系列书籍，目前为第二版。 |
 | [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 74.9k | #243 | 社区 | 30 天 Python 学习挑战，按天讲解变量、数据结构、函数、模块、异常处理、正则、文件处理与 Web 框架入门等，并附练习。 |
-| [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) | 66.5k | #300 | 社区 | 每个 JavaScript 开发者都应掌握的 33 个核心概念，配文章与学习资料链接，涵盖闭包、原型、事件循环、异步等。 |
-| [lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions) | 65.3k | #313 | 社区 | 一组进阶 JavaScript 选择题及详细解析，考察作用域、原型、异步、类型转换等易错点。 |
 | [rust-lang/rustlings](https://github.com/rust-lang/rustlings) | 64.3k | #324 | 社区 | 通过小练习熟悉 Rust 代码的阅读与编写，可与官方 Rust 书配合使用，在本地逐题修复编译错误。 |
-| [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges) | 48.5k | #530 | 社区 | TypeScript 类型体操题库，带在线评测，通过练习掌握类型系统的进阶用法，从简单到极端难度分级。 |
-| [typescript-cheatsheets/react](https://github.com/typescript-cheatsheets/react) | 47.1k | #560 | 社区 | 面向有经验 React 开发者的 TypeScript 速查表，涵盖组件、hooks、事件与常见类型写法。 |
-| [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 46.9k | #565 | 社区 | 30 天 JavaScript 学习挑战，按天讲解基础语法到 DOM、异步等主题，配有练习。 |
 | [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex) | 46.1k | #581 | 社区 | 用易懂的方式学习正则表达式，逐项讲解元字符、量词、分组、断言与标志，并附示例，有多语言翻译。 |
 | [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | 43.9k | #633 | 社区 | 《Go Web 编程》电子书，讲解用 Go 语言构建 Web 应用，涵盖路由、模板、数据库、安全与部署，提供多语言版本。 |
 | [Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings) | 43.5k | #641 | 社区 | 中文 C++ 学习资料合集，从基础进阶到现代 C++ 新特性、STL 源码、并发编程、设计模式和实战练习，含代码与视频。 |
-| [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) | 37.7k | #820 | 社区 | 收集 JavaScript 中有趣又易踩坑的代码示例，逐条解释背后的语言规范与类型转换行为。 |
+| [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) | 38.7k | #781 | 社区 | Python 综合速查表，按集合、数据类型、语法规则、内置函数、标准库与第三方库等分章，可下载为文本文件。 |
+| [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) | 37.6k | #825 | 社区 | 面向初学者的西班牙语 Python 课程，含 100 节课、约 44 小时视频、代码与项目，内容从基础到前端、后端、测试等。 |
 | [eugenp/tutorials](https://github.com/eugenp/tutorials) | 37.3k | #836 | 社区 | Baeldung 教程配套的示例代码仓库，涵盖 Spring Boot、Java 核心、微服务、测试等大量主题的可运行示例。 |
 | [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython) | 37.1k | #850 | 社区 | 通过令人意外的代码片段探索并理解 Python，每个示例给出输出、原因解释与相关语言机制。 |
+| [geekcomputers/Python](https://github.com/geekcomputers/Python) | 35.4k | #918 | 社区 | 作者收集的 Python 小程序与脚本合集，用来减少重复劳动并作为初学者的教学示例，欢迎他人指点和改进。 |
 | [unknwon/the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) | 35k | #935 | 社区 | 《The Way to Go》中文译本，名为《Go 入门指南》，系统介绍 Go 语言语法、并发与标准库。 |
 | [google/comprehensive-rust](https://github.com/google/comprehensive-rust) | 33.4k | #1025 | 官方 · Google | Google Android 团队使用的多日 Rust 课程，从基础语法、泛型与错误处理讲起，并有 Android、Chromium、裸机和并发专题。 |
-| [ascoders/weekly](https://github.com/ascoders/weekly) | 31.2k | #1151 | 社区 | 「前端精读」周刊，每周精读一篇前端好文，涵盖前沿技术、源码解读，也涉及部分后端与商业思考。 |
-| [mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) | 31.1k | #1160 | 社区 | 冴羽的技术博客，系列文章包括 JavaScript 深入、专题、ES6 和 React，中文前端进阶资料。 |
 | [sunface/rust-course](https://github.com/sunface/rust-course) | 31k | #1167 | 社区 | 《Rust 语言圣经》：面向中文读者的 Rust 教程，从入门语法、所有权、泛型与特征到并发、异步和实战，配套在线练习。 |
-| [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) | 30.3k | #1200 | 社区 | 提升 CSS 水平的实用技巧合集，每条带简短示例。 |
-| [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) | 30.3k | #1201 | 社区 | 关于 HTML `<head>` 元素的速查指南，涵盖 meta、link、社交分享标签、图标等推荐写法。 |
 | [realpython/python-guide](https://github.com/realpython/python-guide) | 29.8k | #1236 | 社区 | 《Python 搭车指南》，面向实践的 Python 最佳实践手册，涵盖环境搭建、项目结构、代码风格与常用库。 |
-| [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) | 29.3k | #1294 | 社区 | 30 天原生 JavaScript 挑战，每天做一个小项目，不用框架和库，练习 DOM 和浏览器 API。 |
-| [lukehoban/es6features](https://github.com/lukehoban/es6features) | 29k | #1316 | 社区 | ECMAScript 6 新特性概览，用简短示例介绍箭头函数、类、模板字符串、解构、Promise、模块等。 |
+| [Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29.8k | #1241 | 社区 | Udemy 上「Complete Python 3 Bootcamp」课程的配套文件，包含课程使用的代码与笔记本。 |
+| [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) | 29.7k | #1252 | 社区 | 100 多道 Python 编程练习题，用挑战的形式练习语言与常见编程任务。 |
 | [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) | 28.9k | #1324 | 社区 | 循序渐进的 Spring 系列教程源码，含 Spring Boot、Shiro、Batch、Cloud、Cloud Alibaba 与 Security OAuth2。 |
-| [codepath/android_guides](https://github.com/codepath/android_guides) | 28.3k | #1372 | 社区 | CodePath 的 Android 开发速查指南，从环境搭建到常见组件、网络和架构的开源教程集合。 |
-| [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) | 27.5k | #1437 | 社区 | 30 天 React 学习挑战，按天讲解组件、props、状态、hooks 与路由等。 |
+| [walter201230/Python](https://github.com/walter201230/Python) | 28k | #1405 | 社区 | 面向零基础的中文 Python 教程，基于 Python 3.10+，标注了新版本特性，并提供互动练习版与纯阅读的文档版两个在线站点。 |
 | [changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial) | 25.9k | #1584 | 社区 | 现代 C++ 教程，按 C++11 到 C++26 逐版本讲解语言可用性、运行时增强、容器、智能指针、并发等新特性。 |
-| [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) | 25.6k | #1610 | 社区 | 现代 JavaScript 项目中常见知识点的速查表，涵盖箭头函数、解构、Promise、模块等。 |
-| [javascript-tutorial/en.javascript.info](https://github.com/javascript-tutorial/en.javascript.info) | 25.5k | #1626 | 社区 | 现代 JavaScript 教程（javascript.info 英文版内容仓库），从基础语法到浏览器 API 系统讲解。 |
+| [norvig/pytudes](https://github.com/norvig/pytudes) | 24.4k | #1731 | 社区 | Peter Norvig 的 Python 练习集，借用音乐练习曲的比喻，用短小而有难度的程序打磨特定的编程技巧。 |
 | [quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests) | 23.9k | #1785 | 社区 | 以测试驱动开发的方式学习 Go 语言，边写测试边讲解语言特性与常见实践。 |
-| [MostlyAdequate/mostly-adequate-guide](https://github.com/MostlyAdequate/mostly-adequate-guide) | 23.8k | #1791 | 社区 | 以 JavaScript 讲解函数式编程的开源电子书，涵盖纯函数、柯里化、组合、Functor、Monad 等概念。 |
-| [alibaba/flutter-go](https://github.com/alibaba/flutter-go) | 23.6k | #1816 | 官方 · Alibaba | 面向 Flutter 开发者的辅助应用，含 140 多个常用组件的演示和中文文档，目前已暂停维护。 |
+| [EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | 23.9k | #1787 | 社区 | 以企业级软件的设计原则夸张地实现 FizzBuzz 的讽刺性项目，展示过度设计的架构会是什么样子。 |
 
 ### 命令行、Git 与运维实践
 
-命令行、Git、Docker、Kubernetes、DevOps 与云服务的教程、速查表和练习 · 12 个
+命令行、Git、Docker、Kubernetes、DevOps 与云服务的教程、速查表和练习 · 17 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) | 162.5k | #52 | 社区 | 一页纸掌握命令行：整理日常使用、文件与数据处理、系统调试、单行命令和 macOS / Windows 注意事项，有多语言翻译。 |
 | [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) | 84.7k | #185 | 社区 | 覆盖 Linux、Kubernetes、Docker、Terraform、AWS 等主题的 DevOps / SRE 练习题与面试题库，累计两千多道题。 |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | 63.8k | #326 | 社区 | 社区维护的命令行工具速查手册，为常见命令提供简短的示例式说明，可通过多种客户端在终端中查询。 |
+| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | 59.4k | #384 | 社区 | Git 与 GitHub 的实用功能速查表，收录大量鲜为人知的隐藏功能，有多语言翻译。 |
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 56.2k | #414 | 社区 | 帮助新手完成第一次开源贡献的分步指南，通过 Fork、克隆、建分支、提交、发起 PR 的完整流程练手，并提供多语言与图形工具版说明。 |
 | [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | 50.3k | #494 | 社区 | 手把手教程，不借助自动化脚本，从零一步步手工搭建 Kubernetes 集群，帮助理解各组件之间的关系。 |
 | [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) | 42.6k | #657 | 社区 | Git 出错时的应对手册：以「飞行规则」的形式，按场景一步步列出常见 Git 问题的原因与处理命令。 |
+| [chubin/cheat.sh](https://github.com/chubin/cheat.sh) | 41.8k | #678 | 社区 | 统一查询社区速查表仓库的工具，力求简洁、快速、通用，随时随地即时获得答案。 |
+| [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) 🗄️已归档 | 41.7k | #681 | 社区 | 用纯 bash 内置功能替代外部进程的方法合集，可去掉脚本中不必要的依赖并让脚本更快；仓库已归档。 |
 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | 37k | #856 | 社区 | 收集了 600 多个 Linux 命令的中文速查手册，提供命令详解，并生成可搜索的网站。 |
 | [open-guides/og-aws](https://github.com/open-guides/og-aws) | 36.5k | #875 | 社区 | 亚马逊云（AWS）实用指南，按服务整理经验、陷阱和最佳实践，偏重实战而非官方文档。 |
 | [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) | 34.1k | #979 | 社区 | 交互式 Git 可视化与学习工具：在浏览器沙盒中输入命令，实时看到提交树变化，并通过分关卡的挑战学习分支操作。 |
+| [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | 31.7k | #1120 | 社区 | 持续更新的 Linux 服务器加固指南，从选择发行版、安装到安全配置逐步讲解，也解释各项措施背后的原因。 |
 | [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) | 29.8k | #1242 | 社区 | 「边学边分享」形成的 DevOps 学习路线，按天覆盖 Linux、容器、Kubernetes、IaC、CI/CD 等主题。 |
 | [yeasy/docker_practice](https://github.com/yeasy/docker_practice) | 26.3k | #1544 | 社区 | 《Docker 从入门到实践》开源电子书，系统讲解容器核心概念、原理与实战。 |
+| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 22.9k | #1901 | 社区 | 自托管入门指南，介绍在本地或私有服务器上托管和管理软件应用的工具，涵盖容器、云、WireGuard、自动化、Home Assistant 与网络。 |
 | [wsargent/docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) | 22.6k | #1945 | 社区 | Docker 速查表，汇总常用命令、镜像、容器、网络与 Compose 用法。 |
 
 ### 操作系统与编译原理
@@ -1320,7 +1382,7 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 
 ### 系统设计与面试
 
-系统设计、分布式、编码面试和前后端岗位的面试指南（不含纯算法题库，那类归「算法与数据结构」） · 31 个
+系统设计、分布式、编码面试和前后端岗位的面试指南（不含纯算法题库，那类归「算法与数据结构」） · 32 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1344,6 +1406,7 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 | [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) | 37.3k | #840 | 社区 | 国内大厂后端技术面试题与答案汇总，含专家分析，涵盖网络、Redis、存储等主题。 |
 | [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) | 37k | #858 | 社区 | Java 面试与学习指南，梳理 Java 程序员需要掌握的核心知识。 |
 | [systemdesign42/system-design-academy](https://github.com/systemdesign42/system-design-academy) | 29.2k | #1304 | 社区 | 系统设计学习资料库，用图文讲解常见系统的设计案例和核心概念，按字母顺序整理案例并附订阅通讯。 |
+| [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) | 28.6k | #1351 | 社区 | 技术岗位求职者在面试中可以反问公司的问题清单，既有想多了解的方面，也有需要警惕的信号。 |
 | [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions) | 27.7k | #1423 | 社区 | 上千道 JavaScript 面试题及答案，涵盖语言基础、异步、ES6+ 与常见陷阱。 |
 | [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) | 27.4k | #1450 | 社区 | 每天一道大厂前端面试题的合集，覆盖 JavaScript、CSS、框架与工程化，附解析。 |
 | [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) | 27.1k | #1471 | 社区 | 学习低层设计（LLD）并准备面试的免费资源合集，含设计模式和面向对象设计案例。 |
@@ -1358,7 +1421,7 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 
 ### 最佳实践与规范
 
-编码规范、设计模式、API 指南、项目结构与工程实践清单 · 19 个
+编码规范、设计模式、API 指南、项目结构与工程实践清单 · 22 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1370,9 +1433,12 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 | [isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines) | 45.3k | #597 | 社区 | 由 Bjarne Stroustrup 等主导的 C++ 核心指南，给出经过验证的编码规则与最佳实践，覆盖接口、资源管理、并发、性能与类型安全。 |
 | [faif/python-patterns](https://github.com/faif/python-patterns) | 43k | #649 | 社区 | Python 设计模式与惯用法合集，按创建型、结构型、行为型等分类给出可运行的示例代码，并强调各模式的取舍。 |
 | [google/styleguide](https://github.com/google/styleguide) | 39.6k | #749 | 官方 · Google | Google 内部使用并开源的各语言代码风格指南索引，涵盖 C++、Java、Python、Go、Shell、JavaScript 等，并提供 Lint 配置。 |
+| [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) | 35.8k | #902 | 社区 | Eric S. Raymond 与 Rick Moen《提问的智慧》的中文译本，讲解如何正确提出技术问题、选择合适的论坛并获得满意的回答。 |
+| [OWASP/CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) | 33.4k | #1029 | 社区 | OWASP 速查表系列：面向开发者、针对具体应用安全主题的简明高价值实践指南，Markdown 源文件同时发布为官方网站。 |
 | [alibaba/p3c](https://github.com/alibaba/p3c) | 30.9k | #1171 | 官方 · Alibaba | 阿里巴巴 Java 开发手册及其 PMD 规则实现和 IDE 插件，整合了集团多年的编码规范，覆盖命名、并发、异常、数据库与工程结构。 |
 | [elsewhencode/project-guidelines](https://github.com/elsewhencode/project-guidelines) | 29.4k | #1281 | 社区 | JavaScript 项目的最佳实践清单，涵盖 Git、文档、环境、依赖、测试、结构和代码风格。 |
 | [tmrts/go-patterns](https://github.com/tmrts/go-patterns) | 28.3k | #1380 | 社区 | Go 语言设计模式、技巧与惯用法的精选合集，按创建型、结构型、行为型、并发等分类给出代码示例。 |
+| [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) | 27.7k | #1418 | 社区 | 程序员容易相信的错误假设清单，覆盖邮箱、姓名、时间、地址等常见领域，提醒在实现校验逻辑时留意现实中的例外。 |
 | [dwmkerr/hacker-laws](https://github.com/dwmkerr/hacker-laws) | 27.3k | #1455 | 社区 | 开发者常用的定律、理论、原则与模式合集，如 Amdahl 定律、Brooks 定律、CAP 定理、康威定律等，逐条给出解释与延伸阅读。 |
 | [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) | 25.7k | #1598 | 社区 | 编写风格一致的地道 JavaScript 的原则文档，规定空格、命名、类型检查等约定。 |
 | [goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) | 24.6k | #1709 | 社区 | JavaScript 与 Node.js 测试最佳实践大全，五十多条经验，涵盖测试结构、隔离、Mock 与前后端测试。 |
@@ -1384,7 +1450,7 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 
 ### 前端与移动精选清单
 
-围绕前端框架、组件、移动端与桌面端技术栈的 Awesome 列表和资源导航 · 16 个
+围绕前端框架、组件、移动端与桌面端技术栈的 Awesome 列表和资源导航 · 18 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1394,8 +1460,10 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 | [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | 61.4k | #357 | 社区 | Flutter 库、工具、教程和文章的精选清单，按状态管理、网络、UI、动画等分类。 |
 | [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | 57.8k | #394 | 社区 | Android UI / UX 库精选清单，按 Jetpack Compose、布局、列表、表单、图片、菜单等分类。 |
 | [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) | 53.5k | #450 | 社区 | iOS 生态精选清单，收录 Objective-C 和 Swift 项目，按架构、网络、缓存、图表、认证等分类。 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 52.4k | #463 | 社区 | 开源 iOS、iPadOS、watchOS、tvOS 与 visionOS 应用的协作清单，按开发者工具、终端、教育、金融、游戏等类别整理，可作为学习范例。 |
 | [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 48.5k | #531 | 社区 | React 组件与库的精选清单，只收有实际价值的组件，按主题分类。 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | 47.6k | #551 | 社区 | 人工整理的前端开发资源合集，按类别拆成多个小文件，方便浏览。 |
+| [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | 41.4k | #688 | 官方 · Abstract | 设计工具与插件的精选清单，涵盖设计插件、设计会议与设计 UI 套件等，由 Abstract 旗下 Flawless App 团队维护。 |
 | [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) | 36.9k | #864 | 社区 | 一百多个热门网站（Airbnb、Netflix、Spotify 等）的开源克隆项目合集，附源码、演示、技术栈与 star 数，可作全栈练手参考。 |
 | [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) | 35.7k | #909 | 社区 | React Native 库、工具和学习资源的精选清单，条目经过维护与相关性检查。 |
 | [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript) | 35k | #933 | 社区 | 浏览器端 JavaScript 库与资源精选清单，涵盖包管理、打包、UI、测试等分类。 |
@@ -1407,7 +1475,7 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 
 ### 语言、后端与通用精选清单
 
-围绕编程语言、后端、运维、自托管、系统管理与通用开发资源的 Awesome 列表 · 22 个
+围绕编程语言、后端、运维、自托管、系统管理、命令行、开源项目发现与开发者文化的 Awesome 列表和资源导航 · 39 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -1415,9 +1483,14 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 484.6k | #3 | 社区 | 按类别整理的免费公共 API 清单，涵盖天气、地理、金融、开发工具等数十个领域，每条标注是否需要认证、是否支持 HTTPS 和 CORS。 |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 324.2k | #10 | 社区 | 按用途分类的 Python 框架、库和工具精选清单，涵盖 Web 框架、ORM、异步、测试、部署等方向，并提供可搜索的网站。 |
 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 322.9k | #11 | 社区 | 可自行部署在自己服务器上的免费开源网络服务与 Web 应用清单，按分析、备份、自动化、博客、协作、监控、文件共享等数十个类别整理。 |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 247k | #20 | 社区 | 作者日常工作中使用的资料合集，包含清单、手册、速查表、博客、单行命令、命令行与 Web 工具等。 |
 | [avelino/awesome-go](https://github.com/avelino/awesome-go) | 186.2k | #41 | 社区 | Go 语言框架、库和软件的精选清单，按 Web 框架、数据库、认证、微服务等类别整理，是查找 Go 生态组件的入口。 |
+| [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 179.4k | #44 | 社区 | 分享 GitHub 上有趣、入门级开源项目的中文月刊，每月 28 日发布，内容包含开源项目、开源书籍、实战项目与企业级项目。 |
 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | 138.9k | #74 | 社区 | 面向开发和运维的 SaaS、PaaS、IaaS 免费额度清单，涵盖托管、数据库、CI/CD、监控、邮件等，方便个人项目和初创团队选型。 |
 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 115.2k | #102 | 社区 | 按类别系统整理的高质量 macOS 软件精选清单，涵盖开发工具、效率、办公、创意与实用工具等，便于检索和选用。 |
+| [ruanyf/weekly](https://github.com/ruanyf/weekly) | 105k | #119 | 社区 | 阮一峰的科技爱好者周刊，每周五发布，记录每周值得分享的科技内容，也接受文章、软件与资源投稿。 |
+| [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) | 89.7k | #172 | 社区 | 适合初学者提交第一个拉取请求的开源项目清单，标有 first-timers-only 一类标签，帮助新人找到可参与的入门任务。 |
+| [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) 🗄️已归档 | 76.2k | #234 | 社区 | 程序员值得访问的网站合集，按遇到问题时、新闻、杂志、编程练习、加密货币等主题分类；仓库已归档。 |
 | [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 74.4k | #249 | 社区 | 可扩展、高可靠、高性能大型系统的阅读清单，收集知名工程师的文章和各公司的架构案例，按扩展性、可用性、性能等主题分类。 |
 | [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) | 73.5k | #257 | 社区 | C++（及 C）框架、库和资源的精选清单，涵盖标准库、异步事件循环、压缩、并发、数据库、GUI、序列化、测试、Web 框架等类别。 |
 | [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) | 67k | #296 | 社区 | Node.js 包与资源精选清单，按用途分类，涵盖框架、数据库、CLI、测试、文档等。 |
@@ -1425,11 +1498,23 @@ JavaScript、Python、Go、Rust、C++、Java 等语言与框架的教程、速�
 | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 59.6k | #380 | 社区 | Rust 代码与资源的精选清单，分应用、库、开发工具、嵌入式、数据库、Web 编程、操作系统等类别，并附学习与社区资源。 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | 49.1k | #518 | 社区 | 软件与架构设计模式的精选清单，覆盖各语言的设计模式、通用架构、云架构、Serverless、微服务与分布式系统等资料。 |
 | [akullpp/awesome-java](https://github.com/akullpp/awesome-java) | 49.1k | #520 | 社区 | Java 框架、库和软件精选清单，收录数百个项目，标注活跃度，按类别整理。 |
+| [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) | 48k | #538 | 社区 | 自 2015 年起持续分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站与成熟应用的中文项目，已累计分享一万多个开源项目。 |
 | [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | 46.5k | #570 | 社区 | 常用编程语言、框架和开发工具的速查表合集，每个主题浓缩成一个文件。 |
+| [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs) | 38.7k | #779 | 社区 | 软件工程博客精选清单，按公司、个人或团体、产品与技术分类，按字母顺序检索。 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | 37.7k | #819 | 社区 | 命令行框架、工具包、指南和小工具的精选清单，涵盖 Shell 及各类命令行程序、终端配置与学习资料。 |
 | [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | 36.9k | #862 | 社区 | Docker 资源与项目精选清单，涵盖工具、教程、镜像、编排与安全等。 |
+| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | 35.5k | #915 | 社区 | 面向创业公司 CTO 与研发副总裁的资源精选清单，涵盖招聘、团队管理、职业成长、项目管理、开发流程、架构与技术选型等。 |
 | [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | 35.3k | #923 | 社区 | 面向系统管理员的免费开源软件精选清单，涵盖自动化、备份、监控、配置管理、日志、代理、虚拟化等运维工具类别。 |
+| [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | 33.7k | #1006 | 社区 | Awesome 清单的清单，按编程语言、包管理器、前端、后端、数据库、运维等主题汇总各领域的 Awesome 列表。 |
+| [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) | 33k | #1045 | 社区 | 常用 Unix 命令的现代、更快、更易用替代品清单，如 bat、eza、fd、ripgrep、fzf、delta 等，每项附简介。 |
 | [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | 32.7k | #1063 | 社区 | PHP 库、资源和工具的精选清单，按类别整理。 |
+| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 31.2k | #1152 | 社区 | 精美 GitHub 个人主页 README 的精选清单，按 GitHub Actions、动态实时、极简、徽章、图标等风格分类，并附工具与教程。 |
+| [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 🗄️已归档 | 30.9k | #1168 | 社区 | 在 macOS 终端里完成各种事情的命令与命令行应用精选清单；作者已把项目迁到个人 Git 实例，GitHub 仓库已归档。 |
 | [jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn) | 30.6k | #1181 | 社区 | awesome-python 的中文版，Python 资源大全，涵盖 Web 框架、爬虫、模板引擎、数据库等。 |
 | [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 29.1k | #1307 | 社区 | VS Code 扩展、主题和资源的精选清单，按语法、Lint 与智能提示、调试、各类技术栈以及从其他编辑器迁移等方向整理。 |
 | [sdras/awesome-actions](https://github.com/sdras/awesome-actions) | 28.3k | #1378 | 社区 | GitHub Actions 精选清单，收录可复用的 Action、工作流示例与相关工具。 |
+| [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) | 26.9k | #1493 | 社区 | 开发者个人作品集网站的合集，收录两千多个作品集，按字母顺序排列，可为自己的作品集提供灵感。 |
+| [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) | 24.3k | #1739 | 社区 | 面向系统管理员的开源软件精选清单，涵盖备份、构建自动化、ChatOps、配置管理、CI/CD、部署自动化、DNS 等主题。 |
+| [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs) | 24k | #1771 | 社区 | 中文独立博客列表，按 RSS 订阅数据排序，收录博客的简介、地址与标签，也说明什么是独立博客以及如何提交。 |
+| [n0shake/Public-APIs](https://github.com/n0shake/Public-APIs) | 23.9k | #1776 | 社区 | 按类别整理的公开 API 清单，涵盖广告、分析、日历、加密货币、天气等数十个领域，并标注开源与试用类 API。 |
+| [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) | 22.3k | #1982 | 社区 | 面向学生与从业者的开发者资源精选清单，涵盖学习编程语言、参加社区活动、全球会议、黑客松与竞赛等。 |
