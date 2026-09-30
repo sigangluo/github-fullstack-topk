@@ -15,7 +15,7 @@ Sister project: [AI Top-K](https://github.com/sigangluo/github-ai-topk), the sam
 
 ## What you can do
 
-- **Browse** hundreds of projects grouped into 11 categories and 58 subcategories, with a sidebar table of contents. Every subcategory has a written definition of what belongs in it.
+- **Browse** hundreds of projects grouped into 11 categories and 60 subcategories, with a sidebar table of contents. Every subcategory has a written definition of what belongs in it.
 - **See each project's real rank** among all GitHub repositories by stars, plus creation date, last push, main languages, and whether the repo is archived.
 - **Filter** by category tree, organization, code language, official vs community, or activity, and search names and summaries.
 - **Analyze** the landscape: category size and activity, new projects per quarter, language trends by creation year, official projects by company, and popular projects that went quiet.
