@@ -8,7 +8,8 @@
 审核流程：
     1. 看 data/candidates.json（hint=true 的排在前面，附 README 开头方便判断）；
     2. 相关的项目：在 data/projects.json 里加一条（category / official / officialOrg / summary）；
-    3. 剩下的无关项目：运行 --exclude-rest，写入 data/excluded.json，以后不会再出现；
+    3. 剩下的无关项目：运行 --exclude-rest，写入两个项目共用的 ../excluded.json（不提交远程），以后不会再出现。
+       这份清单两个榜共用：另一个榜也可能想收这些候选，所以要等两边都审核完再运行；
     4. 运行 python3 scripts/build.py 重新生成站点数据。
 """
 import argparse
@@ -31,11 +32,12 @@ HINT = re.compile(
     r"android|ios|swift\w*|kotlin|flutter|dart|mobile|desktop|cross-?platform|mini-?program|"
     r"kubernetes|k8s|terraform|ansible|devops|ci/?cd|infrastructure|container\w*|observability|monitor\w*|"
     r"kafka|elasticsearch|queue|cache|storage|proxy|gateway|microservice\w*|grpc|golang|go|rust|python|java|php|ruby|"
-    r"system design|interview|roadmap|tutorial|awesome)\b",
+    r"system design|interview|roadmap|tutorial|awesome|"
+    r"cli|tui|terminal|shell|editor|ide|compiler|linter|formatter|git|c\+\+|cpp|library|framework|sdk|bi|dataframe)\b",
     re.I,
 )
 
-# 明显的 LLM / AI 项目（另有专门的 LLM & Agent 列表），仅用于降低排序，不自动排除
+# 明显的 LLM / AI 项目（另有专门的 AI 列表），仅用于降低排序，不自动排除
 AI_ONLY = re.compile(r"\b(llms?|gpt|agents?|agentic|rag|mcp|claude|openai|anthropic|gemini|deepseek|qwen|llama)\b", re.I)
 
 DETAIL_FIELDS = """
