@@ -7,7 +7,7 @@
 
 A hand-curated map of every **full-stack development** open-source project among GitHub's top-K most-starred repositories (currently K = 2000): client side (web, mobile, desktop), server side, data, and delivery, plus learning resources. Each project is sorted into a two-level taxonomy, has a short summary written from its README, and carries its real GitHub-wide star rank. Rankings and stars are refreshed regularly, and new entrants are found and reviewed.
 
-Sister project: [LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agent-topk), the same pipeline applied to LLM and agent projects. The two lists never overlap: `build.py` checks against the sister list (a sibling checkout if present, otherwise its published data on GitHub) and fails on any repo that appears in both.
+Sister project: [AI Top-K](https://github.com/sigangluo/github-ai-topk), the same pipeline applied to AI projects (machine learning, deep learning, LLMs, and agents). The two lists never overlap: `build.py` checks against the sister list (a sibling checkout if present, otherwise its published data on GitHub) and fails on any repo that appears in both.
 
 **Live dashboard: <https://sigangluo.github.io/github-fullstack-topk/>**
 
@@ -15,7 +15,7 @@ Sister project: [LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agen
 
 ## What you can do
 
-- **Browse** projects grouped into categories and subcategories, with a sidebar table of contents. Every subcategory has a written definition of what belongs in it.
+- **Browse** hundreds of projects grouped into 11 categories and 58 subcategories, with a sidebar table of contents. Every subcategory has a written definition of what belongs in it.
 - **See each project's real rank** among all GitHub repositories by stars, plus creation date, last push, main languages, and whether the repo is archived.
 - **Filter** by category tree, organization, code language, official vs community, or activity, and search names and summaries.
 - **Analyze** the landscape: category size and activity, new projects per quarter, language trends by creation year, official projects by company, and popular projects that went quiet.
@@ -33,8 +33,8 @@ Sister project: [LLM & Agent Top-K](https://github.com/sigangluo/github-llm-agen
 
 The range is set by **rank** (top K by stars), not by taste. A human decides whether each repo is relevant; everything objective comes from the GitHub API.
 
-- **Included**: what a developer uses to build and ship an application end to end: full-stack frameworks and starters, admin / low-code / headless CMS; client side (front-end frameworks, UI components, mobile / desktop / cross-platform frameworks, build tooling); server side (back-end frameworks, application languages and runtimes, API layers, databases and ORMs, messaging / search middleware, authentication); delivery (containers and infrastructure as code, deployment platforms, CI/CD, monitoring); plus roadmaps, tutorials, system-design and interview material, algorithms and data structures, and awesome lists.
-- **Excluded**: projects whose core is LLMs or agents (they live in the sister list), games, data science and ML research, blockchain, and end-user applications that merely happen to be built with these tools. When unsure, it stays out.
+- **Included**: what a developer uses to build, run, and ship software end to end: full-stack frameworks and starters, admin / low-code / headless CMS and commerce; client side (front-end frameworks, UI components, mobile / desktop / cross-platform frameworks, build tooling); server side (back-end frameworks, application languages and runtimes, API layers, databases and ORMs, messaging / search middleware, authentication, data processing and BI); delivery (containers and infrastructure as code, deployment platforms, CI/CD and self-hosted Git platforms, monitoring); the developer's own tools and foundations (editors and IDEs, the command line and terminal, CLI / TUI frameworks, C / C++ foundation libraries, compiler infrastructure); plus roadmaps, tutorials, system-design and interview material, design patterns and coding guidelines, algorithms and data structures, and awesome lists.
+- **Excluded**: projects whose core is machine learning, deep learning, LLMs, or agents (they live in the sister list), games and game engines, blockchain, security and penetration tools, IoT and hardware, and end-user applications (media players, note-taking apps, proxy clients, desktop utilities) as opposed to tools developers use to build software. When unsure, it stays out.
 - **Official vs community**: a repo is "official" only if its GitHub organization *is* the company itself. Foundations, community orgs, and projects handed over to the community count as "community".
 
 The taxonomy, with a definition for each subcategory, is in [data/taxonomy.json](data/taxonomy.json).
@@ -45,7 +45,6 @@ The taxonomy, with a definition for each subcategory, is in [data/taxonomy.json]
 data/
 ├── taxonomy.json      two-level taxonomy (English + Chinese)           hand-maintained
 ├── projects.json      included projects: category, official, summaries  hand-maintained
-├── excluded.json      reviewed repos judged out of scope                reviewed by hand, written by script
 ├── ranking.json       top-K ranking snapshot                            scripts/rank.py
 └── candidates.json    new entrants waiting for review                   scripts/candidates.py
 scripts/               data pipeline, Python 3.9+ standard library only
