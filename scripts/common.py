@@ -108,7 +108,7 @@ def load_excluded():
 
 def save_excluded(names):
     save_json(EXCLUDED_PATH, {
-        "_note": "已人工审核过、判定与全栈开发无关的仓库（含纯 LLM/AI 项目、纯算法刷题、游戏、数据科学 / ML 研究、区块链等）。candidates.py 不会再把它们列为候选。",
+        "_note": "已人工审核过、判定与全栈开发无关的仓库（含纯 LLM/AI 项目、游戏、数据科学 / ML 研究、区块链等）。candidates.py 不会再把它们列为候选。",
         "repos": sorted(names, key=str.lower),
     })
 

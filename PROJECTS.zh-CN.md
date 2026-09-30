@@ -1,7 +1,7 @@
 # Full-Stack Top-K 项目清单
 
 > 本文件由 `scripts/build.py` 自动生成，请勿手动修改。
-> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **651** 个项目，按「大类 / 小类」整理。排名快照 2026-09-29，star 数更新于 2026-09-30。
+> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **686** 个项目，按「大类 / 小类」整理。排名快照 2026-09-29，star 数更新于 2026-09-30。
 > English version: [PROJECTS.md](PROJECTS.md)
 
 ## 目录
@@ -46,9 +46,10 @@
   - [部署与自托管平台](#部署与自托管平台)（21）
   - [CI/CD 与自动化](#cicd-与自动化)（8）
   - [监控与可观测](#监控与可观测)（16）
-- [学习与资源](#学习与资源)（94）
+- [学习与资源](#学习与资源)（129）
   - [教程与课程](#教程与课程)（38）
-  - [系统设计与面试](#系统设计与面试)（17）
+  - [算法与数据结构](#算法与数据结构)（24）
+  - [系统设计与面试](#系统设计与面试)（28）
   - [最佳实践与规范](#最佳实践与规范)（10）
   - [精选清单](#精选清单)（29）
 
@@ -175,7 +176,7 @@ React、Vue、Angular、Svelte 等视图框架，以及状态管理、路由、�
 | [jaredpalmer/formik](https://github.com/jaredpalmer/formik) | 34.3k | #962 | 社区 | React 表单库，处理表单状态、校验、提交和错误提示，减少样板代码。 |
 | [yewstack/yew](https://github.com/yewstack/yew) | 32.8k | #1057 | 社区 | Rust / WebAssembly 前端框架，用类似 React 的组件与 JSX 风格宏构建客户端 Web 应用。 |
 | [vercel/swr](https://github.com/vercel/swr) | 32.5k | #1068 | 官方 · Vercel | React 数据请求 hooks 库，采用「先返回缓存再重新验证」（stale-while-revalidate）策略，自动缓存、重试与聚焦刷新。 |
-| [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31.9k | #1100 | 社区 | 轻量的 JavaScript 框架，直接在 HTML 标记里用属性声明交互行为，语法类似 Vue，适合给服务端渲染页面添加交互。 |
+| [alpinejs/alpine](https://github.com/alpinejs/alpine) | 32k | #1100 | 社区 | 轻量的 JavaScript 框架，直接在 HTML 标记里用属性声明交互行为，语法类似 Vue，适合给服务端渲染页面添加交互。 |
 | [statelyai/xstate](https://github.com/statelyai/xstate) | 30.2k | #1205 | 官方 · Stately | 基于状态机和 actor 模型的 JavaScript / TypeScript 状态管理与编排库，适合复杂业务逻辑，并提供可视化工具。 |
 | [vuejs/vuex](https://github.com/vuejs/vuex) | 28.3k | #1373 | 社区 | Vue 的集中式状态管理库，官方推荐现已改用 Pinia，Vuex 处于维护状态。 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28.2k | #1381 | 社区 | 简单可扩展的状态管理库，基于透明的函数式响应式编程，状态变化自动驱动 UI 更新，常与 React 搭配。 |
@@ -229,7 +230,7 @@ Android / iOS 开发框架、Flutter、React Native、Electron、Tauri、小程�
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 124.9k | #86 | 社区 | 一套可访问、可定制的 React 组件，以「复制代码到自己项目」的方式分发而非 npm 依赖，基于 Radix UI 与 Tailwind CSS，提供 CLI 安装。 |
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.6k | #128 | 官方 · Ant Group | 蚂蚁集团的企业级 React UI 组件库与设计语言，提供数据密集型后台常用的表格、表单、布局等丰富组件，中文生态成熟。 |
 | [mui/material-ui](https://github.com/mui/material-ui) | 99.1k | #129 | 官方 · MUI | 实现 Google Material Design 的 React 组件库，提供样式系统与主题定制，另有数据表格、图表等进阶组件。 |
-| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 97.7k | #133 | 官方 · Tailwind Labs | 原子化（utility-first）CSS 框架，直接在标记里组合类名构建界面，通过构建时扫描按需生成样式，体积小且易定制。 |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 97.8k | #133 | 官方 · Tailwind Labs | 原子化（utility-first）CSS 框架，直接在标记里组合类名构建界面，通过构建时扫描按需生成样式，体积小且易定制。 |
 | [ElemeFE/element](https://github.com/ElemeFE/element) | 54k | #437 | 官方 · Eleme | 饿了么开源的 Vue 2 桌面端 UI 组件库（Element UI），Vue 3 版本请使用社区维护的 Element Plus。 |
 | [necolas/normalize.css](https://github.com/necolas/normalize.css) | 53.5k | #446 | 社区 | CSS 重置的现代替代方案，保留有用的浏览器默认样式并抹平跨浏览器差异。 |
 | [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) | 51k | #482 | 社区 | 以自然语言命名理念设计的 UI 组件框架，提供五十多个组件、可主题化的 CSS 变量，类名读起来像句子。 |
@@ -849,7 +850,7 @@ Java、Kotlin 与 Android 的工具库、网络库与图片加载库 · 15 个
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 92k | #153 | 社区 | 自托管的服务可用性监控工具，支持 HTTP、TCP、Ping、DNS 等多种检测，带状态页与多渠道告警通知。 |
-| [netdata/netdata](https://github.com/netdata/netdata) | 80.7k | #206 | 官方 · Netdata | 实时基础设施监控工具，一行命令安装即可按秒采集主机、容器和应用的指标，自带仪表盘、异常检测与告警。 |
+| [netdata/netdata](https://github.com/netdata/netdata) | 80.8k | #206 | 官方 · Netdata | 实时基础设施监控工具，一行命令安装即可按秒采集主机、容器和应用的指标，自带仪表盘、异常检测与告警。 |
 | [grafana/grafana](https://github.com/grafana/grafana) | 77k | #224 | 官方 · Grafana Labs | 开源可观测性与数据可视化平台，可查询 Prometheus、Loki、Elasticsearch、Postgres 等多种数据源，构建仪表盘并设置告警。 |
 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.3k | #303 | 社区 | 云原生监控系统与时序数据库，按配置的目标拉取指标，提供 PromQL 查询语言与告警规则，是 CNCF 毕业项目。 |
 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.9k | #603 | 官方 · Sentry | 开发者优先的错误追踪与性能监控平台，收集异常堆栈和性能数据，提供多语言 SDK，可自托管。 |
@@ -914,16 +915,52 @@ Java、Kotlin 与 Android 的工具库、网络库与图片加载库 · 15 个
 | [alibaba/flutter-go](https://github.com/alibaba/flutter-go) | 23.6k | #1815 | 官方 · Alibaba | 面向 Flutter 开发者的辅助应用，含 140 多个常用组件的演示和中文文档，目前已暂停维护。 |
 | [wsargent/docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) | 22.6k | #1944 | 社区 | Docker 速查表，汇总常用命令、镜像、容器、网络与 Compose 用法。 |
 
+### 算法与数据结构
+
+算法与数据结构的多语言实现、刷题题解与攻略、可视化和学习路线 · 24 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225.1k | #21 | 社区 | Python 版算法与数据结构大全，按数学、排序、图、动态规划、机器学习等主题整理，每个实现带说明，适合学习和查阅。 |
+| [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 196.8k | #29 | 社区 | JavaScript 实现的算法与数据结构，每个条目配解释和延伸阅读链接，并附常见算法范式的总结。 |
+| [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) | 136.1k | #74 | 社区 | LeetCode 刷题笔记，讲解解题的套路和原理，而不只是答案，以算法框架著称。 |
+| [krahets/hello-algo](https://github.com/krahets/hello-algo) | 130.5k | #79 | 社区 | 《Hello 算法》：动画图解、可一键运行的数据结构与算法入门教程，提供多种语言实现和多语种版本。 |
+| [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) | 76.7k | #229 | 社区 | 用动画演示 LeetCode 题目解题思路的项目，逐步图解，便于理解。 |
+| [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) | 66.3k | #302 | 社区 | Java 版算法与数据结构实现合集，覆盖排序、搜索、图、动态规划等，配有测试和说明。 |
+| [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 62.6k | #341 | 社区 | 《代码随想录》：按顺序刷 200 道经典 LeetCode 题目的攻略，附图解、视频讲解和思维导图，支持多语言。 |
+| [azl397985856/leetcode](https://github.com/azl397985856/leetcode) | 55.7k | #417 | 社区 | LeetCode 题解与解题思路记录，提供套路总结与专题讲义，中文。 |
+| [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 48.9k | #524 | 社区 | 交互式算法可视化平台，可基于代码逐步展示算法的运行过程。 |
+| [doocs/leetcode](https://github.com/doocs/leetcode) | 36.6k | #867 | 社区 | 多种编程语言实现的 LeetCode、《剑指 Offer》和《程序员面试金典》题解，配有网站和讲解。 |
+| [geekxh/hello-algorithm](https://github.com/geekxh/hello-algorithm) | 36.1k | #888 | 社区 | 面向初学者的算法训练资料，包括大厂面经、力扣图解和电子书、思维导图合集。 |
+| [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34.7k | #944 | 社区 | C++ 版算法实现合集，覆盖数学、机器学习、计算机科学和物理等领域。 |
+| [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript) | 34.3k | #967 | 社区 | JavaScript 版算法与数据结构实现，面向初学者并遵循最佳实践，带示例与测试。 |
+| [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) | 33.8k | #997 | 社区 | 用 Go 语言实现的 LeetCode 题解，覆盖率 100% 的测试，按题型分类。 |
+| [donnemartin/interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) | 31.9k | #1102 | 社区 | 120 多道交互式 Python 编码面试题（算法与数据结构），附解答、测试和 Anki 记忆卡片。 |
+| [liquidslr/leetcode-company-wise-problems](https://github.com/liquidslr/leetcode-company-wise-problems) | 30.8k | #1175 | 社区 | 按公司整理的 LeetCode 高频题清单，每个公司一份 CSV，含题目频率和时间段。 |
+| [kodecocodes/swift-algorithm-club](https://github.com/kodecocodes/swift-algorithm-club) | 29.1k | #1305 | 社区 | 用 Swift 实现的算法与数据结构，并配有讲解，来自 raywenderlich 社区。 |
+| [OI-wiki/OI-wiki](https://github.com/OI-wiki/OI-wiki) | 26.8k | #1502 | 社区 | 面向信息学竞赛（OI / ICPC）的中文 Wiki，系统讲解数据结构、图论、数论、动态规划等竞赛算法。 |
+| [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) | 26.1k | #1557 | 社区 | Rust 版算法与数据结构实现合集。 |
+| [tayllan/awesome-algorithms](https://github.com/tayllan/awesome-algorithms) | 25.6k | #1609 | 社区 | 学习和练习算法的网站与资源精选清单。 |
+| [keon/algorithms](https://github.com/keon/algorithms) | 25.6k | #1615 | 社区 | Python 的数据结构与算法最小化示例，代码简短易读。 |
+| [kunal-kushwaha/DSA-Bootcamp-Java](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java) | 23.9k | #1777 | 社区 | Java 数据结构与算法训练营的代码示例、作业和笔记，配套视频课程。 |
+| [wangzheng0822/algo](https://github.com/wangzheng0822/algo) | 23.1k | #1874 | 社区 | 极客时间《数据结构与算法之美》配套的 50 个必知必会数据结构与算法代码实现。 |
+| [TheAlgorithms/C](https://github.com/TheAlgorithms/C) | 22.5k | #1955 | 社区 | C 语言版算法与数据结构实现合集，涵盖数学、排序、加密、机器学习等主题。 |
+
 ### 系统设计与面试
 
-系统设计、分布式与后端 / 前端面试指南（纯算法刷题合集不收） · 17 个
+系统设计、分布式、编码面试和前后端岗位的面试指南（不含纯算法题库，那类归「算法与数据结构」） · 28 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 372.6k | #6 | 社区 | 系统设计入门指南：讲解可扩展系统的常见模式（负载均衡、缓存、分库分表、消息队列等），附面试题、示例方案和 Anki 记忆卡片，提供多语言翻译。 |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 362.1k | #8 | 社区 | 成为软件工程师的完整计算机科学学习计划，按主题列出数据结构、算法、系统设计等学习资源，面向大厂编码面试。 |
+| [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) | 186.4k | #38 | 社区 | 技术面试必备的基础知识笔记，涵盖算法、操作系统、计算机网络、数据库和系统设计等。 |
 | [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 159k | #52 | 社区 | Java 与后端通用面试指南，涵盖计算机基础、数据库、分布式、高并发与系统设计等知识。 |
+| [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) | 143k | #64 | 社区 | 面向忙碌工程师的编码面试准备资料，包括算法学习清单、行为面试、简历和谈薪建议。 |
 | [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | 90.1k | #169 | 社区 | 用图示和简明语言讲解复杂系统的合集，覆盖 API 设计、缓存、数据库、微服务、DevOps 等主题，兼顾系统设计面试准备。 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) 🗄️已归档 | 84.7k | #182 | 社区 | 各语言与技术的面试题清单的清单，按编程语言和技术栈分类；仓库已归档。 |
 | [doocs/advanced-java](https://github.com/doocs/advanced-java) | 79.1k | #215 | 社区 | 面向 Java 后端工程师的进阶知识与面试题梳理，涵盖高并发、分布式、高可用、微服务和海量数据处理。 |
+| [kdn251/interviews](https://github.com/kdn251/interviews) | 65.3k | #312 | 社区 | 求职面试资料合集，涵盖数据结构、算法、系统设计和各类面试题，含在线题目链接。 |
 | [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) | 60.9k | #363 | 社区 | 前端面试题清单，按 HTML、CSS、JavaScript 等主题分类，既可用于面试候选人也可用来自测。 |
 | [charlax/professional-programming](https://github.com/charlax/professional-programming) | 51.6k | #476 | 社区 | 面向软件工程师的学习资源合集，涵盖架构、可扩展性、数据库、测试、DevOps 与职业发展等主题。 |
 | [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) | 46.4k | #573 | 社区 | 大规模系统设计课程，讲解网络、数据库、缓存、消息队列、微服务等概念，并附案例，兼顾系统设计面试。 |
@@ -931,12 +968,18 @@ Java、Kotlin 与 Android 的工具库、网络库与图片加载库 · 15 个
 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | #628 | 社区 | 前端面试准备手册，涵盖 JavaScript、HTML、CSS、系统设计与算法要点，由 GreatFrontEnd 团队维护。 |
 | [alex/what-happens-when](https://github.com/alex/what-happens-when) | 43.3k | #641 | 社区 | 回答「在浏览器输入 google.com 并回车后发生了什么」这道经典面试题，从键盘输入一路讲到页面渲染，涵盖 DNS、TCP、TLS、HTTP。 |
 | [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | 41.9k | #670 | 社区 | 免费的系统设计学习资源合集，用于学习系统设计概念和准备面试。 |
+| [huihut/interview](https://github.com/huihut/interview) | 38.2k | #796 | 社区 | C/C++ 技术面试基础知识总结，包括语言、库、数据结构、算法、系统、网络和面试经验。 |
+| [0voice/interview_internal_reference](https://github.com/0voice/interview_internal_reference) | 37.3k | #836 | 社区 | 国内大厂后端技术面试题与答案汇总，含专家分析，涵盖网络、Redis、存储等主题。 |
+| [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) | 37k | #855 | 社区 | Java 面试与学习指南，梳理 Java 程序员需要掌握的核心知识。 |
 | [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions) | 27.7k | #1420 | 社区 | 上千道 JavaScript 面试题及答案，涵盖语言基础、异步、ES6+ 与常见陷阱。 |
 | [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) | 27.4k | #1447 | 社区 | 每天一道大厂前端面试题的合集，覆盖 JavaScript、CSS、框架与工程化，附解析。 |
+| [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) | 27.1k | #1470 | 社区 | 学习低层设计（LLD）并准备面试的免费资源合集，含设计模式和面向对象设计案例。 |
+| [crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout) | 26.8k | #1494 | 社区 | Java 核心知识梳理，涵盖基础、并发、算法等主题的学习与面试资料。 |
 | [haizlin/fe-interview](https://github.com/haizlin/fe-interview) | 26.3k | #1542 | 社区 | 前端面试每日题库，六千多道题目覆盖 HTML、CSS、JavaScript、Vue、React、Node.js、TypeScript、Webpack、小程序等。 |
 | [checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview) | 23.8k | #1795 | 社区 | 面向 IT 公司的系统设计面试准备资料，汇集常见题目、思路和参考文章。 |
 | [Vonng/ddia](https://github.com/Vonng/ddia) | 23.8k | #1800 | 社区 | 《设计数据密集型应用》（DDIA）的中文翻译，涵盖数据系统、分布式、一致性与流处理，第一版和第二版均有。 |
 | [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) | 23.1k | #1875 | 社区 | 互联网常用框架源码解析，剖析 Spring 全家桶、MyBatis、Netty、Dubbo 以及 Redis、Tomcat 等的底层实现。 |
+| [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) | 22.4k | #1998 | 社区 | 《System Design Interview: An Insider's Guide》一书的读书笔记，整理常见系统设计题的思路。 |
 
 ### 最佳实践与规范
 
