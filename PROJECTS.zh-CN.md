@@ -1,17 +1,20 @@
 # Full-Stack Top-K 项目清单
 
 > 本文件由 `scripts/build.py` 自动生成，请勿手动修改。
-> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **977** 个项目，按「大类 / 小类」整理。排名快照 2026-09-30，star 数更新于 2026-09-30。
+> GitHub 全站 star 排名前 2000 的仓库中，与全栈开发相关的 **1040** 个项目，按「大类 / 小类」整理。排名快照 2026-09-30，star 数更新于 2026-09-30。
 > English version: [PROJECTS.md](PROJECTS.md)
 
 ## 目录
 
-- [全栈框架与应用骨架](#全栈框架与应用骨架)（77）
+- [全栈框架与应用骨架](#全栈框架与应用骨架)（135）
   - [全栈与元框架](#全栈与元框架)（14）
   - [静态站点与文档站生成器](#静态站点与文档站生成器)（12）
   - [脚手架与项目模板](#脚手架与项目模板)（24）
   - [管理后台与低代码](#管理后台与低代码)（19）
   - [CMS 与电商平台](#cms-与电商平台)（8）
+  - [协作、沟通与社区应用](#协作沟通与社区应用)（19）
+  - [业务系统与个人效率应用](#业务系统与个人效率应用)（13）
+  - [个人云与自托管服务](#个人云与自托管服务)（26）
 - [客户端与应用框架](#客户端与应用框架)（53）
   - [前端视图框架](#前端视图框架)（16）
   - [状态、路由与数据请求](#状态路由与数据请求)（16）
@@ -26,12 +29,12 @@
   - [图表与地图](#图表与地图)（9）
   - [3D、Canvas 与白板绘图](#3dcanvas-与白板绘图)（13）
   - [媒体、文档与演示](#媒体文档与演示)（10）
-- [工程化工具链](#工程化工具链)（75）
+- [工程化工具链](#工程化工具链)（80）
   - [构建、打包与编译](#构建打包与编译)（16）
   - [代码规范与格式化](#代码规范与格式化)（8）
-  - [测试与性能](#测试与性能)（13）
+  - [测试与性能](#测试与性能)（16）
   - [包管理与版本管理](#包管理与版本管理)（18）
-  - [开发者体验与 Monorepo](#开发者体验与-monorepo)（20）
+  - [开发者体验与 Monorepo](#开发者体验与-monorepo)（22）
 - [编程语言与开发环境](#编程语言与开发环境)（124）
   - [编程语言、运行时与编译器](#编程语言运行时与编译器)（25）
   - [代码编辑器与 IDE](#代码编辑器与-ide)（23）
@@ -80,7 +83,7 @@
 
 ## 全栈框架与应用骨架
 
-一个项目里同时覆盖客户端与服务端的框架、站点生成器、脚手架和现成的应用底座
+一个项目里同时覆盖客户端与服务端的框架、站点生成器、脚手架、现成的应用底座，以及可自行部署的大型开源全栈应用
 
 ### 全栈与元框架
 
@@ -193,6 +196,85 @@ SaaS 模板、全栈起步项目、示例应用和最佳实践参考实现，以
 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.5k | #872 | 官方 · Medusa | 开源的电商平台与内置定制框架，以模块化构件构建自定义商业应用，涵盖商品、订单、支付、库存与管理后台，可自托管或使用云服务。 |
 | [bagisto/bagisto](https://github.com/bagisto/bagisto) | 28.2k | #1392 | 社区 | 基于 Laravel 和 Vue.js 的开源电商与多商户市场平台，用于搭建单商户店铺、B2B 电商与多商户市场。 |
 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | #1844 | 官方 · Saleor | 基于 GraphQL 的无头电商 API 平台，采用纯 API 架构与技术栈无关的设计，提供商品、订单、结账与仪表盘等能力。 |
+
+### 协作、沟通与社区应用
+
+可自行部署的团队协作、知识库、项目管理、即时通讯、视频会议与社区论坛应用（Mattermost、Outline、Plane、Discourse、Mastodon 一类），也是大型全栈应用的参考实现 · 19 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77k | #224 | 官方 · AppFlowy | 开源的 Notion 替代品，AI 协作工作空间，把项目、文档和团队放在一起，用 Flutter 与 Rust 构建，提供桌面、iOS、Android 客户端并支持自托管。 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 73.1k | #262 | 官方 · AFFiNE | 隐私优先、本地优先的开源知识库，文档、白板画布和表格融合在一起，作为 Notion 与 Miro 的替代品，可自行定制。 |
+| [usememos/memos](https://github.com/usememos/memos) | 63.4k | #330 | 社区 | 开源、可自托管的短笔记应用：以时间线形式记录日常笔记、链接、工作日志与代码片段，使用 Markdown，可按搜索、标签或日期查找，可用 Docker 部署。 |
+| [makeplane/plane](https://github.com/makeplane/plane) | 60.2k | #372 | 官方 · Plane | 开源项目管理平台，是 Jira、Linear、Monday 与 ClickUp 的替代品，用于跟踪任务与议题、管理迭代周期、文档与产品路线图。 |
+| [mastodon/mastodon](https://github.com/mastodon/mastodon) | 50.3k | #493 | 社区 | 基于 ActivityPub 的免费开源社交网络服务器，可自托管的微博社区，各服务器组成联邦网络，用户可跨服务器互相关注与交流。 |
+| [discourse/discourse](https://github.com/discourse/discourse) | 47.9k | #540 | 官方 · Discourse | 100% 开源的社区讨论平台，可完全掌控站点的运行方式与位置，经十多年实战检验，可自托管，官方也提供托管服务。 |
+| [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) | 46.2k | #579 | 官方 · Rocket.Chat | 用 TypeScript 开发的开源、安全、可完全定制的团队沟通平台，面向对数据保护要求高的组织，支持同事、其他公司与客户之间的实时对话。 |
+| [logseq/logseq](https://github.com/logseq/logseq) | 45.1k | #603 | 官方 · Logseq | 隐私优先的开源知识管理与协作平台，README 介绍了新的数据库版本（DB 图谱）、插件 API 与开发环境搭建方式。 |
+| [outline/outline](https://github.com/outline/outline) | 40.8k | #706 | 官方 · Outline | 用 React 与 Node.js 构建的快速团队知识库，支持实时协作、功能丰富并兼容 Markdown，可自行部署，官方也提供托管版本。 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | 39.2k | #762 | 官方 · Mattermost | 开源核心、可自托管的协作平台，提供聊天、工作流自动化、语音通话、屏幕共享与 AI 集成，用 Go 与 React 编写，以单个 Linux 二进制运行并依赖 PostgreSQL。 |
+| [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 38.1k | #807 | 社区 | 免费开源的跨平台层级式笔记应用，专注于构建大型个人知识库，支持多种界面语言。 |
+| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 37.4k | #835 | 官方 · Chatwoot | 开源、可自托管的现代客户支持平台，是 Intercom、Zendesk 与 Salesforce Service Cloud 的替代品，提供在线聊天、邮件支持与多渠道会话管理。 |
+| [block/buzz](https://github.com/block/buzz) | 35.3k | #922 | 官方 · Block | 可自托管的工作空间，让人和 AI Agent 在同一个房间里协作，通过用户自己拥有的中继服务器访问社区，采用 Apache 2.0 许可，用 Rust 编写。 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 30k | #1218 | 社区 | 安全、简单、可扩展的开源视频会议，可作为独立应用使用，也可嵌入自己的 Web 应用，提供 Web 与原生 SDK、屏幕共享、聊天、投票与虚拟背景。 |
+| [requarks/wiki](https://github.com/requarks/wiki) | 29k | #1319 | 社区 | Wiki.js：基于 NodeJS 的现代、轻量、功能强大的开源 Wiki 应用。 |
+| [hcengineering/platform](https://github.com/hcengineering/platform) | 27.8k | #1415 | 官方 · Huly Labs | Huly 一体化项目管理平台，可替代 Linear、Jira、Slack、Notion 等；README 说明该仓库已冻结、不再维护，开发转移到新仓库，托管服务也已关闭。 |
+| [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard) | 26.5k | #1522 | 社区 | 开源、多语言、可自托管的项目管理工具，是 Trello、Notion 与 Asana 的替代品；README 说明该仓库目前无人维护。 |
+| [zulip/zulip](https://github.com/zulip/zulip) | 26k | #1568 | 社区 | 开源团队聊天应用，独特的话题式线程结合了邮件与聊天的优点，同时适合实时与异步交流；本仓库包含 Zulip 服务器与 Web 应用。 |
+| [forem/forem](https://github.com/forem/forem) | 22.8k | #1918 | 官方 · Forem | Forem 的代码库，即驱动 dev.to 的开源社区平台，可用来为同行、客户、粉丝等各类群体搭建社区。 |
+
+### 业务系统与个人效率应用
+
+可自行部署的 CRM、ERP、支付、日程、邮件营销、链接管理与个人财务、简历等业务和效率类应用（Odoo、ERPNext、Twenty、Cal.com、Firefly III 一类） · 13 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | 57.7k | #396 | 官方 · Twenty | 开源 CRM，可作为 Salesforce 的替代品，为技术团队提供构建定制 CRM 的基础组件，像技术栈的其他部分一样构建、发布与版本管理。 |
+| [odoo/odoo](https://github.com/odoo/odoo) | 54.8k | #431 | 官方 · Odoo | 基于 Web 的开源商业应用套件，包含 CRM、网站构建、电商、仓储、项目管理、财务会计、销售点、人力资源与制造等应用，可单独使用，组合安装即成为完整的 ERP。 |
+| [maybe-finance/maybe](https://github.com/maybe-finance/maybe) 🗄️已归档 | 54.3k | #438 | 官方 · Maybe Finance | 面向所有人的个人理财应用，可用 Docker 自托管；README 说明仓库已不再积极维护，可按 AGPLv3 自行 fork，仓库已归档。 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | 48.8k | #527 | 官方 · Cal.com | Cal.com 的开源社区版，面向想自托管日程预约基础设施的用户；README 提醒仅建议个人、非生产环境使用，自托管需要服务器管理与数据库知识。 |
+| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | #598 | 官方 · Juspay | 开源、可组合的支付基础设施，用 Rust 编写，可对接多家支付、出款、风控、保管与令牌化服务商，提供智能路由、成本可观测与对账，支持 SaaS 与自托管。 |
+| [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 43.6k | #639 | 社区 | 注重隐私的开源简历生成器，可定制、可移植、免费，提供 Docker 镜像，仓库已迁移到 reactive-resume 组织下。 |
+| [frappe/erpnext](https://github.com/frappe/erpnext) | 39.7k | #746 | 官方 · Frappe | 100% 开源的 ERP 系统，覆盖发票、库存、人员管理、会计等日常经营事务，用一套系统取代分开采购的多个软件。 |
+| [actualbudget/actual](https://github.com/actualbudget/actual) | 29.2k | #1298 | 社区 | 本地优先的开源个人理财应用，用 NodeJS 编写，带有多设备同步机制，可在设备之间同步所有更改。 |
+| [monicahq/monica](https://github.com/monicahq/monica) | 25.4k | #1634 | 社区 | 开源个人关系管理系统（个人 CRM），用来记录与朋友、家人和业务伙伴的关系，让你记录生活；README 提示当前分支为开发中的测试版。 |
+| [dubinc/dub](https://github.com/dubinc/dub) | 24.8k | #1684 | 官方 · Dub | 开源链接归因平台，用于短链接、转化追踪与联盟计划，基于 Next.js 与 TypeScript，支持自托管。 |
+| [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) | 24.8k | #1693 | 社区 | 免费开源、可自托管的个人财务管理器，帮助记录收支，支持预算、分类与标签，强调无 AI、无云与保护隐私。 |
+| [krayin/laravel-crm](https://github.com/krayin/laravel-crm) | 24k | #1773 | 社区 | 基于 Laravel 与 Vue.js 构建的免费开源 CRM 框架，面向中小企业与大型企业的客户、线索与销售管理，提供 Docker 安装方式。 |
+| [knadh/listmonk](https://github.com/knadh/listmonk) | 23.6k | #1817 | 社区 | 高性能、可自托管的新闻通讯与邮件列表管理器，打包为单个二进制文件，使用 PostgreSQL 存储数据，带现代化管理界面并提供 Docker 镜像。 |
+
+### 个人云与自托管服务
+
+可自行部署的个人云、文件与照片管理、媒体服务、密码管理、搜索、仪表盘与智能家居等服务（Nextcloud、Immich、Jellyfin、Vaultwarden、Home Assistant 一类） · 26 个
+
+| 项目 | Stars | 全站排名 | 出品 | 简介 |
+|---|---:|---:|---|---|
+| [immich-app/immich](https://github.com/immich-app/immich) | 115.3k | #101 | 社区 | 高性能、可自托管的照片与视频管理方案，有完整文档与安装指南，并提醒遵循 3-2-1 备份原则。 |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93.3k | #149 | 官方 · Stirling PDF | 开源 PDF 平台，可作为桌面应用、浏览器界面或带私有 API 的自托管服务运行，提供编辑、合并、拆分、签名、脱敏、转换与 OCR 等 50 多种工具。 |
+| [home-assistant/core](https://github.com/home-assistant/core) | 91.2k | #158 | 社区 | 以本地控制和隐私优先的开源智能家居平台，Python 编写，采用模块化设计以集成各类设备与服务，适合在树莓派或本地服务器上运行。 |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | 68.3k | #288 | 社区 | 用 Rust 编写的 Bitwarden 客户端 API 替代服务器实现，兼容官方 Bitwarden 客户端，适合不想运行官方重量级服务的自托管部署。 |
+| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 57.7k | #397 | 社区 | 自由软件媒体系统的服务端与 API，用于管理并向多种终端应用推流媒体，是 Emby 与 Plex 的替代品，基于 .NET 实现跨平台。 |
+| [AlistGo/alist](https://github.com/AlistGo/alist) | 50.2k | #495 | 社区 | 支持多种存储的文件列表与 WebDAV 程序，使用 Gin 与 Solidjs 构建，支持本地、OneDrive、GoogleDrive、S3、FTP / SFTP 等多种存储。 |
+| [9001/copyparty](https://github.com/9001/copyparty) | 46.9k | #566 | 社区 | 把几乎任何设备变成文件服务器的便携程序，支持断点续传、去重、WebDAV、SFTP、FTP、SMB 等协议，服务端只需 Python，全部集成在一个文件里。 |
+| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | 46.4k | #576 | 社区 | 「万物皆可 RSS」：开源 RSS 生成服务，为大量网站提供 RSS 订阅源，可自行部署实例，已有五千多个全球实例。 |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 46.2k | #580 | 社区 | 社区维护的文档管理系统，把纸质文档变成可搜索的在线档案，支持扫描、索引与归档，是 Paperless 与 Paperless-ng 的官方后继项目。 |
+| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 43.6k | #638 | 官方 · Puter | 开源、可自托管的「互联网计算机」，在浏览器中提供桌面环境，把记事本、录音机、电子表格、相机等各类应用集中在一起，并可扩展。 |
+| [photoprism/photoprism](https://github.com/photoprism/photoprism) | 40.3k | #720 | 官方 · PhotoPrism | AI 驱动、隐私优先的照片与视频浏览、整理和分享应用，帮助打标签、搜索与重新发现媒体，可自托管或使用云版本。 |
+| [searxng/searxng](https://github.com/searxng/searxng) | 37.8k | #813 | 社区 | 免费的互联网元搜索引擎，聚合多个搜索服务与数据库的结果，且不跟踪、不画像用户，可自行部署。 |
+| [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) | 37.3k | #837 | 官方 · IceWhale | 简单易用的开源个人云系统，用 Go 编写，让用户以低成本搭建属于自己的个人云，管理自托管应用与数据。 |
+| [glanceapp/glance](https://github.com/glanceapp/glance) | 37.3k | #838 | 社区 | 可自托管的仪表盘，把各类信息流集中在一个页面，内置 RSS、Reddit、Hacker News、天气、YouTube、Docker 容器状态等组件，轻量并可高度定制。 |
+| [nextcloud/server](https://github.com/nextcloud/server) | 37k | #859 | 官方 · Nextcloud | Nextcloud 服务器：可放在自己选择的服务器上的个人云，用于存储与同步文件、联系人、日历等，并可通过数百个应用（日历、邮件、视频聊天等）扩展。 |
+| [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) 🗄️已归档 | 35.9k | #899 | 社区 | 在指定目录内提供文件管理界面的软件，可上传、删除、预览与编辑文件，安装到服务器上即可通过网页访问文件；README 说明仓库已于 2026 年 9 月归档，不再发布更新。 |
+| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | 34.7k | #947 | 社区 | 网站变更检测与网页监控工具，可跟踪内容更新、价格下降、补货等，并通过 Discord、邮件、Slack、Telegram、Webhook 等渠道发送通知。 |
+| [gethomepage/homepage](https://github.com/gethomepage/homepage) | 32.9k | #1053 | 社区 | 现代、纯静态、经代理的应用仪表盘，可集成 100 多种服务，通过 YAML 文件或 Docker 标签自动发现来配置，支持多语言。 |
+| [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) | 29.4k | #1287 | 社区 | 可自托管的「收藏一切」应用（原名 Hoarder），支持收藏链接、笔记、图片与 PDF，自动获取标题，全文与语义搜索，并可用 LLM 自动打标签与摘要。 |
+| [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) | 28.8k | #1334 | 社区 | 自托管的文件管理与分享系统，支持多云存储，包括本地、远程节点、OneDrive、S3 兼容接口与多家国内云存储，并可与 Aria2、qBittorrent 集成离线下载。 |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 28.7k | #1342 | 社区 | 开源、可自托管的网页归档应用，可从 URL、浏览器历史与书签等来源保存网页，输出标准的 HTML、PNG、PDF、JSON、WARC 等长期可读格式。 |
+| [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) | 27k | #1479 | 社区 | 在任意 Linux 主机上安装和管理 WireGuard 最简单的方式，把 WireGuard 与 Web 管理界面合二为一，可创建客户端、查看二维码与连接统计。 |
+| [lissy93/dashy](https://github.com/lissy93/dashy) | 26.6k | #1515 | 社区 | 可自托管、高度可定制的个人仪表盘，是 homelab 的主页，带状态检查、小组件、主题、图标包与可视化界面编辑器。 |
+| [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) | 24.9k | #1682 | 社区 | AList 的社区驱动分支，强调长期治理与抵御信任攻击，以 AGPL-3.0 许可独立维护并保持代码开放透明。 |
+| [iv-org/invidious](https://github.com/iv-org/invidious) | 24.8k | #1686 | 社区 | 开源的 YouTube 替代前端，轻量、无广告、无跟踪，不依赖 JavaScript，订阅独立于 Google，并有自定义主页与通知。 |
+| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 23.9k | #1783 | 社区 | 开源的 Web 音乐收藏服务器与流媒体播放器，可在任意浏览器或移动设备中收听自己的音乐库，类似个人版的 Spotify。 |
 
 ## 客户端与应用框架
 
@@ -502,7 +584,7 @@ Lint、格式化工具与 JavaScript / Python 的代码风格规范（ESLint、P
 
 ### 测试与性能
 
-单元 / 端到端测试、浏览器自动化、压测和网页性能审计 · 13 个
+单元 / 端到端测试、浏览器自动化、压测和网页性能审计，以及可在 CI 中运行的代码、依赖、镜像与密钥泄露安全扫描（Trivy、Gitleaks 一类） · 16 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
@@ -511,10 +593,13 @@ Lint、格式化工具与 JavaScript / Python 的代码风格规范（ESLint、P
 | [cypress-io/cypress](https://github.com/cypress-io/cypress) | 51k | #483 | 官方 · Cypress | 面向浏览器应用的端到端与组件测试框架，测试与应用运行在同一浏览器中，提供时间旅行调试和自动重试。 |
 | [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) | 47.7k | #547 | 社区 | 一份在用作用户输入时极易引发问题的字符串清单，用于自动化和人工 QA 测试，可用来发现零宽字符、注入与编码等边界问题。 |
 | [jestjs/jest](https://github.com/jestjs/jest) | 45.5k | #593 | 社区 | JavaScript 测试框架，开箱即用，提供快照测试、Mock、覆盖率和交互式监听模式，是 React 项目的常见选择。 |
+| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 38.1k | #805 | 官方 · Aqua Security | 全面通用的安全扫描器，可扫描容器镜像、文件系统、远程 Git 仓库、虚拟机镜像与 Kubernetes，检测依赖与操作系统包（SBOM）、已知漏洞、基础设施即代码配置错误、敏感信息与软件许可证。 |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | 34.5k | #954 | 社区 | 浏览器自动化框架及生态，通过 WebDriver 协议驱动各类浏览器，支持多种语言，是 Web 端到端测试的老牌方案。 |
 | [grafana/k6](https://github.com/grafana/k6) | 31.7k | #1122 | 官方 · Grafana Labs | 面向开发者的现代压测工具，用 JavaScript 编写测试脚本、Go 实现引擎，可集成 CI 做性能回归。 |
 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.8k | #1173 | 官方 · Google | 自动化网页质量审计工具，检测性能、可访问性、SEO 与最佳实践并给出改进建议，集成于 Chrome DevTools。 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.6k | #1268 | 社区 | 用于检测 Git 仓库、文件及标准输入中密码、API 密钥与令牌等敏感信息的工具，可接入 GitHub Action 与 Docker；作者说明它功能已完备，后续只发布安全补丁。 |
 | [ariya/phantomjs](https://github.com/ariya/phantomjs) 🗄️已归档 | 29.4k | #1278 | 社区 | 可用 JavaScript 编写脚本的无头 WebKit 浏览器，用于无界面网页测试、页面自动化与截图；开发已暂停，最终稳定版为 2.1。 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | 28.2k | #1388 | 官方 · Truffle Security | 面向泄露凭据的密钥发现、分类、验证与分析工具，可扫描 Git 等来源中机器用于互相认证的凭据，并验证其是否仍然有效。 |
 | [locustio/locust](https://github.com/locustio/locust) | 28.2k | #1394 | 社区 | 用纯 Python 编写场景的压测工具，支持分布式运行和实时 Web 界面，适用于 HTTP 与其他协议。 |
 | [stretchr/testify](https://github.com/stretchr/testify) | 26.2k | #1549 | 社区 | Go 测试工具包，提供断言、Mock 和测试套件，与标准库 testing 配合良好。 |
 | [tsenart/vegeta](https://github.com/tsenart/vegeta) | 25.2k | #1651 | 社区 | 多用途 HTTP 压测工具与库，以恒定速率发送请求，适合验证服务在给定负载下的表现。 |
@@ -547,13 +632,14 @@ Lint、格式化工具与 JavaScript / Python 的代码风格规范（ESLint、P
 
 ### 开发者体验与 Monorepo
 
-Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章与代码截图等提升开发效率的小工具，以及面向开发者的在线工具箱 · 20 个
+Monorepo 构建、组件开发环境、Git 钩子、热重载、调试器、徽章与代码截图等提升开发效率的小工具，以及面向开发者的在线工具箱 · 22 个
 
 | 项目 | Stars | 全站排名 | 出品 | 简介 |
 |---|---:|---:|---|---|
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | #159 | 社区 | UI 组件的隔离开发环境，可以在独立于应用的沙盒里构建、预览、文档化和测试组件，支持 React、Vue、Angular 等多种框架。 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | 79.8k | #212 | 社区 | 为 GitHub README 动态生成统计卡片的服务；README 说明该仓库不再维护，建议改用后继项目 GitHub Stats Extended。 |
 | [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | 59.7k | #378 | 社区 | 零配置生成本地受信任开发证书的工具，自动创建本地 CA 并装入系统信任库，方便在本地用 HTTPS 调试。 |
+| [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | 49.7k | #510 | 社区 | 面向 Windows 的开源二进制调试器，用于恶意软件分析和没有源码的可执行文件逆向，提供丰富功能与完整的插件系统，支持 32 位与 64 位程序。 |
 | [google/zx](https://github.com/google/zx) | 45.8k | #587 | 官方 · Google | 用 JavaScript 编写更好用的 shell 脚本，封装 child_process，提供 $ 模板字符串、并行和错误处理。 |
 | [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | 40.7k | #707 | 社区 | 面向开发者与 IT 人员的在线工具集合，体验良好，可通过 Docker 自托管。 |
 | [carbon-app/carbon](https://github.com/carbon-app/carbon) | 36.1k | #888 | 社区 | 为源代码生成并分享精美图片的工具，可自定义外观，用于制作在社交媒体上分享的代码截图。 |
@@ -562,6 +648,7 @@ Monorepo 构建、组件开发环境、Git 钩子、热重载、调试、徽章�
 | [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) | 32k | #1097 | 社区 | 面向开发者的瑞士军刀式桌面应用，2.0 版内置 30 个默认小工具，涵盖转换器、编码解码器、格式化器与生成器，并能根据剪贴板内容智能选择工具。 |
 | [vercel/turborepo](https://github.com/vercel/turborepo) | 31.2k | #1157 | 官方 · Vercel | 用 Rust 写的 JavaScript / TypeScript Monorepo 构建系统，支持增量构建、任务并行和本地与远程缓存。 |
 | [square/leakcanary](https://github.com/square/leakcanary) | 30k | #1225 | 官方 · Block | Android 内存泄漏检测库，在开发时自动监测对象泄漏并给出引用链，帮助定位问题。 |
+| [dnSpy/dnSpy](https://github.com/dnSpy/dnSpy) 🗄️已归档 | 29.7k | #1257 | 社区 | 调试器与 .NET 程序集编辑器，可在没有源码的情况下调试和编辑 .NET Framework、.NET 与 Unity 程序集，支持断点与单步执行；仓库已归档。 |
 | [nrwl/nx](https://github.com/nrwl/nx) | 29.4k | #1286 | 官方 · Nx | Monorepo 构建平台，提供智能任务缓存、受影响项分析、分布式 CI 与代码生成，支持多语言。 |
 | [badges/shields](https://github.com/badges/shields) | 27.2k | #1462 | 社区 | Shields.io 服务的源码，为 GitHub README 等页面生成简洁一致的 SVG 与位图徽章，支持数十种持续集成、包仓库、覆盖率与社交网络等数据源。 |
 | [remy/nodemon](https://github.com/remy/nodemon) | 26.7k | #1507 | 社区 | 监视文件变化并自动重启 Node.js 应用的开发工具，避免每次改代码手动重启服务。 |
